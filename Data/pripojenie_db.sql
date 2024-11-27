@@ -1,0 +1,1 @@
+// subor na pripojenie
