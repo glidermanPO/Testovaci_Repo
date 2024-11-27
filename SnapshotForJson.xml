@@ -1,0 +1,2512 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Attributes xlink:title reset.-->
+<!--In case of NOTAM event, xlink:title is composed of series, number, year, type and scenario.-->
+<!--Broken XlinkHref-s removed!-->
+<!--Duplicite gml:id checked. If found, replaced by UUID v.4-->
+<!--Default namespace was replaced by "message" namespace.-->
+<!--Attributes "asrn" and "schemaLocation" not currently supported by NG were added.-->
+<message:AIXMBasicMessage xmlns:event="http://www.aixm.aero/schema/5.1/event" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="uuid.8F253B96-16A9-473F-AD35-B3BC886FA7E4" xmlns:asrn="http://www.aixm.aero/schema/5.1/asrn" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd" xmlns:message="http://www.aixm.aero/schema/5.1/message">
+  <message:hasMember>
+    <aixm:AirportHeliport gml:id="uuid.333596e7-e300-4e33-bcf7-ba21a112f087">
+      <gml:identifier codeSpace="urn:uuid:">333596e7-e300-4e33-bcf7-ba21a112f087</gml:identifier>
+      <aixm:featureMetadata>
+        <gmd:MD_Metadata>
+          <gmd:contact />
+          <gmd:dateStamp />
+          <gmd:identificationInfo>
+            <gmd:MD_DataIdentification>
+              <gmd:citation>
+                <gmd:CI_Citation>
+                  <gmd:title />
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:DateTime>2023-04-05T14:07:24Z</gco:DateTime>
+                      </gmd:date>
+                      <gmd:dateType />
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:citation>
+              <gmd:abstract />
+              <gmd:language />
+            </gmd:MD_DataIdentification>
+          </gmd:identificationInfo>
+        </gmd:MD_Metadata>
+      </aixm:featureMetadata>
+      <aixm:timeSlice>
+        <aixm:AirportHeliportTimeSlice gml:id="uuid.01f45040-dc2f-4b41-b412-86ec090f058c">
+          <gml:validTime>
+            <gml:TimeInstant gml:id="uuid.875f6e3b-7978-4cb1-a448-504fceb7a01c">
+              <gml:timePosition>2025-01-15T00:00:00Z</gml:timePosition>
+            </gml:TimeInstant>
+          </gml:validTime>
+          <aixm:interpretation>SNAPSHOT</aixm:interpretation>
+          <aixm:timeSliceMetadata>
+            <gmd:MD_Metadata id="uuid.2a362fe5-c8f1-42a0-8f4a-31aa0371c0b9">
+              <gmd:contact />
+              <gmd:dateStamp />
+              <gmd:metadataExtensionInfo />
+              <gmd:identificationInfo>
+                <gmd:MD_DataIdentification id="uuid.9f353c0f-e7ac-433d-be32-197d1849b21b">
+                  <gmd:citation>
+                    <gmd:CI_Citation id="uuid.1e67bb27-aa1d-46bd-8ffe-b89b1c91e1be">
+                      <gmd:title />
+                      <gmd:date>
+                        <gmd:CI_Date id="uuid.0304acda-a906-4450-861a-98152431d175">
+                          <gmd:date>
+                            <gco:DateTime>2023-04-05T14:07:24Z</gco:DateTime>
+                          </gmd:date>
+                          <gmd:dateType />
+                        </gmd:CI_Date>
+                      </gmd:date>
+                    </gmd:CI_Citation>
+                  </gmd:citation>
+                  <gmd:abstract />
+                  <gmd:language />
+                  <gmd:extent>
+                    <gmd:EX_Extent id="uuid.4916c846-a4ba-4afa-893b-38f9b19ebab0">
+                      <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent id="uuid.99db2b69-7aee-4d42-b892-78c60d8abaeb">
+                          <gmd:extent>
+                            <gml:TimePeriod gml:id="uuid.2bc1b5a4-7142-41b9-b816-e67e529555b8">
+                              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+                              <gml:endPosition indeterminatePosition="unknown" />
+                            </gml:TimePeriod>
+                          </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                      </gmd:temporalElement>
+                    </gmd:EX_Extent>
+                  </gmd:extent>
+                </gmd:MD_DataIdentification>
+              </gmd:identificationInfo>
+            </gmd:MD_Metadata>
+          </aixm:timeSliceMetadata>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.297479b6-adfa-416c-af56-9a0de100a042">
+              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown" />
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:designator>ADLZPP</aixm:designator>
+          <aixm:name>LETISKO PIESTANY</aixm:name>
+          <aixm:type>AD</aixm:type>
+          <aixm:ARP>
+            <aixm:ElevatedPoint gml:id="uuid.a53d3ca9-bb48-4d62-a2ba-5f5e4983d0ef" srsName="urn:ogc:def:crs:EPSG::4326">
+              <gml:pos>48.625 17.82861111</gml:pos>
+              <aixm:elevation uom="FT">545</aixm:elevation>
+            </aixm:ElevatedPoint>
+          </aixm:ARP>
+          <aixm:availability>
+            <aixm:AirportHeliportAvailability gml:id="uuid.af8455cd-4158-4d2f-9c1f-489af9602d23">
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.2bd5f408-1732-4efb-bc36-a1396eeb7726">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:day>ANY</aixm:day>
+                  <aixm:startTime>00:00</aixm:startTime>
+                  <aixm:endTime>24:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+            </aixm:AirportHeliportAvailability>
+          </aixm:availability>
+        </aixm:AirportHeliportTimeSlice>
+      </aixm:timeSlice>
+    </aixm:AirportHeliport>
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:Airspace gml:id="uuid.97b61a03-81ec-42db-a5ea-9c735391ba8c">
+      <gml:identifier codeSpace="urn:uuid:">e0b26152-17a2-4059-a0c7-65660395f0ae</gml:identifier>
+      <aixm:featureMetadata>
+        <gmd:MD_Metadata id="uuid.a7100f7e-4cab-4966-9a16-4668d3018d4b">
+          <gmd:contact />
+          <gmd:dateStamp />
+          <gmd:identificationInfo>
+            <gmd:MD_DataIdentification id="uuid.fd522baf-68f4-46d6-b6a9-fb7c015c5942">
+              <gmd:citation>
+                <gmd:CI_Citation id="uuid.fc7e0eb8-410a-4547-bab2-79dcf51743be">
+                  <gmd:title />
+                  <gmd:date>
+                    <gmd:CI_Date id="uuid.4b4534e8-26b0-40f5-a10b-0e7b185331b9">
+                      <gmd:date>
+                        <gco:DateTime>2023-04-06T12:04:21Z</gco:DateTime>
+                      </gmd:date>
+                      <gmd:dateType />
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:citation>
+              <gmd:abstract />
+              <gmd:language />
+            </gmd:MD_DataIdentification>
+          </gmd:identificationInfo>
+        </gmd:MD_Metadata>
+      </aixm:featureMetadata>
+      <aixm:timeSlice>
+        <aixm:AirspaceTimeSlice gml:id="uuid.ec1f0bc5-6431-4282-a614-53aed1907fb9">
+          <gml:validTime>
+            <gml:TimeInstant gml:id="uuid.60bb2f7f-3c1f-4f32-9bfc-20e25f00ad66">
+              <gml:timePosition>2025-01-15T00:00:00Z</gml:timePosition>
+            </gml:TimeInstant>
+          </gml:validTime>
+          <aixm:interpretation>SNAPSHOT</aixm:interpretation>
+          <aixm:timeSliceMetadata>
+            <gmd:MD_Metadata id="uuid.6d5e1d32-6da6-4036-af8a-f4930004895a">
+              <gmd:contact />
+              <gmd:dateStamp />
+              <gmd:metadataExtensionInfo />
+              <gmd:identificationInfo>
+                <gmd:MD_DataIdentification id="uuid.fbebe725-a4fd-41d9-87c4-dd53d240c004">
+                  <gmd:citation>
+                    <gmd:CI_Citation id="uuid.c71612d6-3a0f-4ef4-a797-e1b1ad6f89eb">
+                      <gmd:title />
+                      <gmd:date>
+                        <gmd:CI_Date id="uuid.af29d0cc-673e-47e9-9696-b0a01dafd3e0">
+                          <gmd:date>
+                            <gco:DateTime>2023-04-06T12:16:33Z</gco:DateTime>
+                          </gmd:date>
+                          <gmd:dateType />
+                        </gmd:CI_Date>
+                      </gmd:date>
+                    </gmd:CI_Citation>
+                  </gmd:citation>
+                  <gmd:abstract />
+                  <gmd:language />
+                  <gmd:extent>
+                    <gmd:EX_Extent id="uuid.1b3c77f7-2856-43e6-a2d1-6a366df95cc3">
+                      <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent id="uuid.b685eeaf-34dc-4616-b008-491af57a8d08">
+                          <gmd:extent>
+                            <gml:TimePeriod gml:id="uuid.3eace0dc-d611-4c0a-b1e0-eae298f6888e">
+                              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+                              <gml:endPosition indeterminatePosition="unknown" />
+                            </gml:TimePeriod>
+                          </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                      </gmd:temporalElement>
+                    </gmd:EX_Extent>
+                  </gmd:extent>
+                </gmd:MD_DataIdentification>
+              </gmd:identificationInfo>
+            </gmd:MD_Metadata>
+          </aixm:timeSliceMetadata>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.44abc33a-7eca-4441-a2b1-5bd89b682131">
+              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown" />
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>OTHER:UZONE</aixm:type>
+          <aixm:designator>UZA002</aixm:designator>
+          <aixm:localType>COMMON</aixm:localType>
+          <aixm:name>CTR PIESTANY REQ AUTHORIZATION</aixm:name>
+          <aixm:controlType>CIVIL</aixm:controlType>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.5302dc22-7b1a-4cdb-9bdb-e2a9d0dd853c">
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.c9bbf08a-f10c-4fe3-b2df-6d493dd9a8dd">
+                  <aixm:upperLimit uom="M">120</aixm:upperLimit>
+                  <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                  <aixm:lowerLimit uom="M">30</aixm:lowerLimit>
+                  <aixm:lowerLimitReference>MSL</aixm:lowerLimitReference>
+                  <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.02b44866-f487-4076-96e2-f02878279d3d">
+                      <aixm:dependency>HORZ_PROJECTION</aixm:dependency>
+                      <aixm:theAirspace xlink:href="#b9307ce3-5804-45f9-a3e8-e39a9286f4ff" xlink:title="ASCTRLZPP" />
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.c1e2a1cd-0fea-47cb-a734-698cf367bec8">
+              <aixm:purpose>OTHER:RESTRICTION</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.127cc764-6b46-492a-947e-6da7edc99983">
+                  <aixm:note>REQ_AUTHORIZATION</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.3d96e1c8-e3bd-41dd-8c25-71d3ebce24ea">
+              <aixm:purpose>OTHER:CONDITIONS</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.838fe03a-efcb-4911-aa87-7c7e9d9ca38f">
+                  <aixm:note>All UAS categories</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.5495abcc-e43a-46ac-a1ed-18d2eb4b6fb3">
+              <aixm:purpose>OTHER:REGION</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.05430414-65d3-4108-aea3-c9d7996566cf">
+                  <aixm:note>Trnavsky kraj</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.8f72b0b5-4174-466c-be44-41bfbd04b515">
+              <aixm:purpose>OTHER:REASON</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.d975e37f-f40a-4527-849e-636efeee156b">
+                  <aixm:note>AIR_TRAFFIC</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.6da5c575-1b9e-43e3-a41e-7b66479eb9d2">
+              <aixm:purpose>OTHER:REASON_INFO</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.3ee472f9-51d2-4979-8037-c99205cbf3dc">
+                  <aixm:note>Some info</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.abe4fad6-5be3-4345-81aa-293e771d0dd9">
+              <aixm:purpose>OTHER:MESSAGE</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.f13b45e1-31ae-4c36-9775-f351efadcb04">
+                  <aixm:note>Some message</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.15d762c4-3938-4934-b5cb-667ad30e22b0">
+              <aixm:purpose>DESCRIPTION</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.a1d51689-572d-4c0a-a9a1-7d542efb2dcd">
+                  <aixm:note>Scenario UZONE:  own geometry - circle</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:AirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Airspace>
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:Airspace gml:id="uuid.de26fc55-aa47-40e2-b3bd-1a3a5465ba84">
+      <gml:identifier codeSpace="urn:uuid:">8ea1af5a-145d-4cbc-863a-52a173fe7953</gml:identifier>
+      <aixm:featureMetadata>
+        <gmd:MD_Metadata id="uuid.f3c3a1d0-3577-4637-ae58-7d6c32f2aeba">
+          <gmd:contact />
+          <gmd:dateStamp />
+          <gmd:identificationInfo>
+            <gmd:MD_DataIdentification id="uuid.58afe394-acd2-4a20-ac1e-71d534b472d0">
+              <gmd:citation>
+                <gmd:CI_Citation id="uuid.8a27eec1-2803-4868-b000-b618dede659d">
+                  <gmd:title />
+                  <gmd:date>
+                    <gmd:CI_Date id="uuid.5207fca4-3646-4d67-8590-7ece79f90f0d">
+                      <gmd:date>
+                        <gco:DateTime>2023-04-06T12:25:56Z</gco:DateTime>
+                      </gmd:date>
+                      <gmd:dateType />
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:citation>
+              <gmd:abstract />
+              <gmd:language />
+            </gmd:MD_DataIdentification>
+          </gmd:identificationInfo>
+        </gmd:MD_Metadata>
+      </aixm:featureMetadata>
+      <aixm:timeSlice>
+        <aixm:AirspaceTimeSlice gml:id="uuid.9eba6c0b-0972-4ebc-93ef-575dd18e0e9d">
+          <gml:validTime>
+            <gml:TimeInstant gml:id="uuid.17462662-ac56-4b9e-b9d6-0a0617896c1e">
+              <gml:timePosition>2025-01-15T00:00:00Z</gml:timePosition>
+            </gml:TimeInstant>
+          </gml:validTime>
+          <aixm:interpretation>SNAPSHOT</aixm:interpretation>
+          <aixm:timeSliceMetadata>
+            <gmd:MD_Metadata id="uuid.b6467686-d699-44d5-98ae-adcb1ea75f9f">
+              <gmd:contact />
+              <gmd:dateStamp />
+              <gmd:metadataExtensionInfo />
+              <gmd:identificationInfo>
+                <gmd:MD_DataIdentification id="uuid.5196b6d3-f246-499d-95d2-1b3697a11504">
+                  <gmd:citation>
+                    <gmd:CI_Citation id="uuid.11e0fd8a-d01b-45df-975c-3b2071231dc1">
+                      <gmd:title />
+                      <gmd:date>
+                        <gmd:CI_Date id="uuid.246f03e4-7d46-4688-8ef3-08b8a2124dfe">
+                          <gmd:date>
+                            <gco:DateTime>2023-04-06T12:25:56Z</gco:DateTime>
+                          </gmd:date>
+                          <gmd:dateType />
+                        </gmd:CI_Date>
+                      </gmd:date>
+                    </gmd:CI_Citation>
+                  </gmd:citation>
+                  <gmd:abstract />
+                  <gmd:language />
+                  <gmd:extent>
+                    <gmd:EX_Extent id="uuid.d859c40a-6e9b-42d4-b137-70b9239943ee">
+                      <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent id="uuid.80357b07-beb5-491e-b568-f5f4ff0d91d9">
+                          <gmd:extent>
+                            <gml:TimePeriod gml:id="uuid.7a64a628-e85f-4afa-9f70-c38e282e332a">
+                              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+                              <gml:endPosition indeterminatePosition="unknown" />
+                            </gml:TimePeriod>
+                          </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                      </gmd:temporalElement>
+                    </gmd:EX_Extent>
+                  </gmd:extent>
+                </gmd:MD_DataIdentification>
+              </gmd:identificationInfo>
+            </gmd:MD_Metadata>
+          </aixm:timeSliceMetadata>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.6013fd88-617f-463e-bd56-244ed5049c33">
+              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown" />
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>OTHER:UZONE</aixm:type>
+          <aixm:designator>UZA003</aixm:designator>
+          <aixm:localType>COMMON</aixm:localType>
+          <aixm:name>CTR PIESTANY REQ AUTHORIZATION</aixm:name>
+          <aixm:controlType>CIVIL</aixm:controlType>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.3d394977-6e89-4c3b-a699-129846856d62">
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.e1ea2db7-7ec4-42b9-9f86-95751ca62d73">
+                  <aixm:upperLimit uom="M">30</aixm:upperLimit>
+                  <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                  <aixm:lowerLimit>GND</aixm:lowerLimit>
+                  <aixm:horizontalProjection>
+                    <aixm:Surface gml:id="uuid.67c69194-1aeb-4e0e-8e81-a347153b4939" srsName="urn:ogc:def:crs:EPSG::4326">
+                      <gml:patches>
+                        <gml:PolygonPatch>
+                          <gml:exterior>
+                            <gml:Ring>
+                              <gml:curveMember>
+                                <gml:Curve gml:id="uuid.6bb7ced2-912c-4d7b-b260-c304c4a35e9e">
+                                  <gml:segments>
+                                    <gml:CircleByCenterPoint numArc="1">
+                                      <gml:posList>48.625 17.82861111</gml:posList>
+                                      <gml:radius uom="NM">2.5</gml:radius>
+                                    </gml:CircleByCenterPoint>
+                                  </gml:segments>
+                                </gml:Curve>
+                              </gml:curveMember>
+                            </gml:Ring>
+                          </gml:exterior>
+                        </gml:PolygonPatch>
+                      </gml:patches>
+                    </aixm:Surface>
+                  </aixm:horizontalProjection>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.68b1346d-19b9-4f02-8190-1e18bbb9b71f">
+              <aixm:purpose>OTHER:RESTRICTION</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.165ea877-82be-43b2-b8d8-d979baaa3ce7">
+                  <aixm:note>REQ_AUTHORIZATION</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.4b0a9b58-ce2f-4d7e-a2b2-5454c883e934">
+              <aixm:purpose>OTHER:CONDITIONS</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.9578b874-21d7-4afa-9184-3c7c8dab6576">
+                  <aixm:note>All UAS categories</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.167a4971-29e2-4cca-9def-358f6ebacbad">
+              <aixm:purpose>OTHER:REGION</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.592dfa94-3b53-426c-ba21-04e5118bc1ec">
+                  <aixm:note>Trnavsky kraj</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.e9ea04c4-530f-4d3e-ac04-9b2527ae2b74">
+              <aixm:purpose>OTHER:REASON</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.563d914d-b318-439e-bc30-12cf18506b71">
+                  <aixm:note>AIR_TRAFFIC</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.b59f5c7c-2612-4576-bddd-47b05911d4df">
+              <aixm:purpose>OTHER:REASON_INFO</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.62b3e6ce-6626-4e13-bdbd-3f83c70d8542">
+                  <aixm:note>Some info</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.ad589bc0-d062-4cd3-b29c-a43afab63e33">
+              <aixm:purpose>OTHER:MESSAGE</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.0f638f7e-84c8-4b52-a585-29f69f5df392">
+                  <aixm:note>Some message</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.55199b46-61d1-4e7d-9ffa-8cf34cf5e3db">
+              <aixm:purpose>DESCRIPTION</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.8ac0cf83-64bb-4c4b-99a4-89d047592a24">
+                  <aixm:note>Scenario UZONE:  own geometry - circle</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:AirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Airspace>
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:Airspace gml:id="uuid.b9307ce3-5804-45f9-a3e8-e39a9286f4ff">
+      <gml:identifier codeSpace="urn:uuid:">b9307ce3-5804-45f9-a3e8-e39a9286f4ff</gml:identifier>
+      <aixm:featureMetadata>
+        <gmd:MD_Metadata>
+          <gmd:contact />
+          <gmd:dateStamp />
+          <gmd:identificationInfo>
+            <gmd:MD_DataIdentification>
+              <gmd:citation>
+                <gmd:CI_Citation>
+                  <gmd:title />
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:DateTime>2023-04-05T14:04:57Z</gco:DateTime>
+                      </gmd:date>
+                      <gmd:dateType />
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:citation>
+              <gmd:abstract />
+              <gmd:language />
+            </gmd:MD_DataIdentification>
+          </gmd:identificationInfo>
+        </gmd:MD_Metadata>
+      </aixm:featureMetadata>
+      <aixm:timeSlice>
+        <aixm:AirspaceTimeSlice gml:id="uuid.efd190be-41d5-40e0-babc-e17d71736673">
+          <gml:validTime>
+            <gml:TimeInstant gml:id="uuid.c8d9f9b6-7a48-4fac-911a-f627723fb973">
+              <gml:timePosition>2025-01-15T00:00:00Z</gml:timePosition>
+            </gml:TimeInstant>
+          </gml:validTime>
+          <aixm:interpretation>SNAPSHOT</aixm:interpretation>
+          <aixm:timeSliceMetadata>
+            <gmd:MD_Metadata id="uuid.4c460330-1401-4050-844d-3fe6947bcbc3">
+              <gmd:contact />
+              <gmd:dateStamp />
+              <gmd:metadataExtensionInfo />
+              <gmd:identificationInfo>
+                <gmd:MD_DataIdentification id="uuid.dca9e9b8-46ae-4dbb-aced-3ca7a6071cf4">
+                  <gmd:citation>
+                    <gmd:CI_Citation id="uuid.915f30b3-f79c-4cba-845a-c7fcbf2ee5fb">
+                      <gmd:title />
+                      <gmd:date>
+                        <gmd:CI_Date id="uuid.bcd8a891-f8ee-472b-9b49-40ce2ca9c8ee">
+                          <gmd:date>
+                            <gco:DateTime>2023-04-06T12:33:21Z</gco:DateTime>
+                          </gmd:date>
+                          <gmd:dateType />
+                        </gmd:CI_Date>
+                      </gmd:date>
+                    </gmd:CI_Citation>
+                  </gmd:citation>
+                  <gmd:abstract />
+                  <gmd:language />
+                  <gmd:extent>
+                    <gmd:EX_Extent id="uuid.a3395ad7-f3c7-470b-93c9-8bf831dcd5a7">
+                      <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent id="uuid.a1e6e2c1-6846-47fd-9e4a-ca5beaea69f5">
+                          <gmd:extent>
+                            <gml:TimePeriod gml:id="uuid.8d7b6045-b575-4013-818e-34114e273b2f">
+                              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+                              <gml:endPosition indeterminatePosition="unknown" />
+                            </gml:TimePeriod>
+                          </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                      </gmd:temporalElement>
+                    </gmd:EX_Extent>
+                  </gmd:extent>
+                </gmd:MD_DataIdentification>
+              </gmd:identificationInfo>
+            </gmd:MD_Metadata>
+          </aixm:timeSliceMetadata>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.a06c8a4a-d231-45ee-899e-c5bbd80a1bfe">
+              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown" />
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>CTR</aixm:type>
+          <aixm:designator>ASCTRLZPP</aixm:designator>
+          <aixm:name>CTR PIESTANY</aixm:name>
+          <aixm:class>
+            <aixm:AirspaceLayerClass gml:id="uuid.669b8065-c087-46b9-ba61-a72c24127ad3">
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.68a28954-4f1c-40e5-a9fc-260ad08dca00">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:day>MON</aixm:day>
+                  <aixm:dayTil>FRI</aixm:dayTil>
+                  <aixm:startTime>05:15</aixm:startTime>
+                  <aixm:endTime>17:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:classification>D</aixm:classification>
+              <aixm:associatedLevels>
+                <aixm:AirspaceLayer gml:id="uuid.d81d80e9-9862-4f07-927a-e523e20b9cff">
+                  <aixm:upperLimit uom="FT">5000</aixm:upperLimit>
+                  <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                  <aixm:lowerLimit>GND</aixm:lowerLimit>
+                </aixm:AirspaceLayer>
+              </aixm:associatedLevels>
+            </aixm:AirspaceLayerClass>
+          </aixm:class>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.30bb5d3f-c7bb-43cc-be13-ac25bcebaf96">
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.401a3e6f-229a-4045-b0cf-e57e957aa8fc">
+                  <aixm:upperLimit uom="FT">5000</aixm:upperLimit>
+                  <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                  <aixm:lowerLimit>GND</aixm:lowerLimit>
+                  <aixm:horizontalProjection>
+                    <aixm:Surface gml:id="uuid.6a98486d-8b93-4536-9787-5926c736e8bd" srsName="urn:ogc:def:crs:EPSG::4326">
+                      <gml:patches>
+                        <gml:PolygonPatch>
+                          <gml:exterior>
+                            <gml:Ring>
+                              <gml:curveMember>
+                                <gml:Curve gml:id="uuid.3be894d2-34e4-4143-8c1c-9cf9f19961ab">
+                                  <gml:segments>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>48.80472222 17.78777778 48.70694444 17.99194444 48.62 18.00416667 48.61998653 18.00462715</gml:posList>
+                                    </gml:GeodesicString>
+                                    <gml:ArcByCenterPoint numArc="1">
+                                      <gml:posList>48.625 17.82861111</gml:posList>
+                                      <gml:radius uom="NM">7</gml:radius>
+                                      <gml:startAngle uom="deg">92.4012888129984</gml:startAngle>
+                                      <gml:endAngle uom="deg">169.433959123326</gml:endAngle>
+                                    </gml:ArcByCenterPoint>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>48.51051253 17.86084542 48.51055556 17.86083333 48.42972222 17.83111111 48.45222222 17.69166667 48.53305556 17.72111111 48.53288392 17.72091091</gml:posList>
+                                    </gml:GeodesicString>
+                                    <gml:ArcByCenterPoint numArc="1">
+                                      <gml:posList>48.625 17.82861111</gml:posList>
+                                      <gml:radius uom="NM">7</gml:radius>
+                                      <gml:startAngle uom="deg">-142.237142316014</gml:startAngle>
+                                      <gml:endAngle uom="deg">-108.311916718456</gml:endAngle>
+                                    </gml:ArcByCenterPoint>
+                                    <gml:GeodesicString interpolation="geodesic">
+                                      <gml:posList>48.58828921 17.66146659 48.58833333 17.66166667 48.7925 17.73583333 48.80472222 17.78777778</gml:posList>
+                                    </gml:GeodesicString>
+                                  </gml:segments>
+                                </gml:Curve>
+                              </gml:curveMember>
+                            </gml:Ring>
+                          </gml:exterior>
+                        </gml:PolygonPatch>
+                      </gml:patches>
+                    </aixm:Surface>
+                  </aixm:horizontalProjection>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:activation>
+            <aixm:AirspaceActivation gml:id="uuid.b1fdb69e-b0dd-44dd-bf9d-0d90d2a18057">
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.bdb1f20f-2593-4114-b305-19ec17078d3d">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:day>MON</aixm:day>
+                  <aixm:dayTil>FRI</aixm:dayTil>
+                  <aixm:startTime>05:15</aixm:startTime>
+                  <aixm:endTime>17:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:status>ACTIVE</aixm:status>
+            </aixm:AirspaceActivation>
+          </aixm:activation>
+        </aixm:AirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Airspace>
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:Airspace gml:id="uuid.e893c55b-d4f4-448c-b7be-83fddc8f75de">
+      <gml:identifier codeSpace="urn:uuid:">e893c55b-d4f4-448c-b7be-83fddc8f75de</gml:identifier>
+      <aixm:featureMetadata>
+        <gmd:MD_Metadata>
+          <gmd:contact />
+          <gmd:dateStamp />
+          <gmd:identificationInfo>
+            <gmd:MD_DataIdentification>
+              <gmd:citation>
+                <gmd:CI_Citation>
+                  <gmd:title />
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:DateTime>2023-04-06T08:12:18Z</gco:DateTime>
+                      </gmd:date>
+                      <gmd:dateType />
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:citation>
+              <gmd:abstract />
+              <gmd:language />
+            </gmd:MD_DataIdentification>
+          </gmd:identificationInfo>
+        </gmd:MD_Metadata>
+      </aixm:featureMetadata>
+      <aixm:timeSlice>
+        <aixm:AirspaceTimeSlice gml:id="uuid.a9324bab-7688-4315-9e18-15a2259d2fb8">
+          <gml:validTime>
+            <gml:TimeInstant gml:id="uuid.4e212bd4-787d-465b-85e9-48b6ca78dff2">
+              <gml:timePosition>2025-01-15T00:00:00Z</gml:timePosition>
+            </gml:TimeInstant>
+          </gml:validTime>
+          <aixm:interpretation>SNAPSHOT</aixm:interpretation>
+          <aixm:timeSliceMetadata>
+            <gmd:MD_Metadata id="uuid.356f28b9-2785-4246-bdaf-bcc523b1eb64">
+              <gmd:contact />
+              <gmd:dateStamp />
+              <gmd:metadataExtensionInfo />
+              <gmd:identificationInfo>
+                <gmd:MD_DataIdentification id="uuid.678ac0c8-c2d2-449b-81d8-1f24a10dc192">
+                  <gmd:citation>
+                    <gmd:CI_Citation id="uuid.c297820a-9feb-4e26-85ca-d99bcc2b918d">
+                      <gmd:title />
+                      <gmd:date>
+                        <gmd:CI_Date id="uuid.fb3aa9ce-b7d2-4514-aacf-a04e9b4f0666">
+                          <gmd:date>
+                            <gco:DateTime>2023-04-06T12:13:49Z</gco:DateTime>
+                          </gmd:date>
+                          <gmd:dateType />
+                        </gmd:CI_Date>
+                      </gmd:date>
+                    </gmd:CI_Citation>
+                  </gmd:citation>
+                  <gmd:abstract />
+                  <gmd:language />
+                  <gmd:extent>
+                    <gmd:EX_Extent id="uuid.0b82aa16-eb9e-4f8d-9106-0029b0b889c8">
+                      <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent id="uuid.d6a147c4-71bc-4ce8-97a0-c5c8cc6e9c3a">
+                          <gmd:extent>
+                            <gml:TimePeriod gml:id="uuid.60fbb4fa-838e-4313-96b2-dbad3ceeb4da">
+                              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+                              <gml:endPosition indeterminatePosition="unknown" />
+                            </gml:TimePeriod>
+                          </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                      </gmd:temporalElement>
+                    </gmd:EX_Extent>
+                  </gmd:extent>
+                </gmd:MD_DataIdentification>
+              </gmd:identificationInfo>
+            </gmd:MD_Metadata>
+          </aixm:timeSliceMetadata>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.555aba98-630e-46f4-9eee-0975d95d45e1">
+              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown" />
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>OTHER:UZONE</aixm:type>
+          <aixm:designator>UZP001</aixm:designator>
+          <aixm:localType>COMMON</aixm:localType>
+          <aixm:name>CTR PIESTANY UAS PROHIBITED</aixm:name>
+          <aixm:controlType>CIVIL</aixm:controlType>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.78b710e3-6af2-4b63-a5ad-f23dac079287">
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.521a9982-b9b4-4311-9736-1accff00889d">
+                  <aixm:upperLimit uom="FT">5000</aixm:upperLimit>
+                  <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                  <aixm:lowerLimit uom="M">120</aixm:lowerLimit>
+                  <aixm:lowerLimitReference>SFC</aixm:lowerLimitReference>
+                  <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.f86428aa-8ef7-4c06-b2e6-84a3b6f82ddd">
+                      <aixm:dependency>HORZ_PROJECTION</aixm:dependency>
+                      <aixm:theAirspace xlink:href="#b9307ce3-5804-45f9-a3e8-e39a9286f4ff" xlink:title="ASCTRLZPP" />
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.961bb987-83d0-476b-95a8-362f435a0832">
+              <aixm:purpose>OTHER:RESTRICTION</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.a4cfdd07-4954-41e1-8cec-802b5d6b67f8">
+                  <aixm:note>PROHIBITED</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.f8453ab0-8287-4363-a254-eec2f31b7a99">
+              <aixm:purpose>OTHER:CONDITIONS</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.ccfd2b54-3a6d-4b5b-8871-68f1f65f0cda">
+                  <aixm:note>All UAS categories</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.93fccb80-9d94-4627-ad74-d3e59deaaa98">
+              <aixm:purpose>OTHER:REGION</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.a6150fc5-928b-4900-b236-63c3d6e43547">
+                  <aixm:note>Trnavsky kraj</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.dd7f50cb-2a16-4a54-b126-6c39f570eed7">
+              <aixm:purpose>OTHER:REASON</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.1d708b0f-a566-4b8d-a290-d377f012e5fc">
+                  <aixm:note>AIR_TRAFFIC, NOISE</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.84d52da8-bc10-4f8f-95d1-f793888a3170">
+              <aixm:purpose>OTHER:REASON_INFO</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.cb7c3448-b174-41d8-afc0-69e6e7871a0e">
+                  <aixm:note>Some info</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.8a998127-4e87-445f-9231-0ef036a1ffcf">
+              <aixm:purpose>OTHER:MESSAGE</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.93510cab-7519-411c-90f2-d2ce41b497c6">
+                  <aixm:note>Some message</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.3f049a7c-08d0-4c78-a6a3-329beba6f0c5">
+              <aixm:purpose>DESCRIPTION</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.7607f330-32b8-4d0c-96a5-fd6a33e81239">
+                  <aixm:note>Scenario UZONE: within entire horizontal projection of other airspace.</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:AirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Airspace>
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:Airspace gml:id="uuid.980089a8-2b74-489b-879f-75048eca26c3">
+      <gml:identifier codeSpace="urn:uuid:">6b2d3c69-ad92-4e4d-996f-26d95bfa13df</gml:identifier>
+      <aixm:featureMetadata>
+        <gmd:MD_Metadata id="uuid.b73b4ab6-117b-47e3-99ec-f7b9bcf74a86">
+          <gmd:contact />
+          <gmd:dateStamp />
+          <gmd:identificationInfo>
+            <gmd:MD_DataIdentification id="uuid.d232d3f0-41ff-49af-a0c9-d8877320ec46">
+              <gmd:citation>
+                <gmd:CI_Citation id="uuid.19c6af23-88ca-4c84-a14e-9e434180e5e5">
+                  <gmd:title />
+                  <gmd:date>
+                    <gmd:CI_Date id="uuid.0602d26e-1f96-4c71-8839-716e8629b2fd">
+                      <gmd:date>
+                        <gco:DateTime>2023-04-06T12:56:21Z</gco:DateTime>
+                      </gmd:date>
+                      <gmd:dateType />
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:citation>
+              <gmd:abstract />
+              <gmd:language />
+            </gmd:MD_DataIdentification>
+          </gmd:identificationInfo>
+        </gmd:MD_Metadata>
+      </aixm:featureMetadata>
+      <aixm:timeSlice>
+        <aixm:AirspaceTimeSlice gml:id="uuid.983ed902-caf8-459e-b2e5-f835f6ada37b">
+          <gml:validTime>
+            <gml:TimeInstant gml:id="uuid.de87b05e-61de-4e1b-9321-e4b338a4bfd1">
+              <gml:timePosition>2025-01-15T00:00:00Z</gml:timePosition>
+            </gml:TimeInstant>
+          </gml:validTime>
+          <aixm:interpretation>SNAPSHOT</aixm:interpretation>
+          <aixm:timeSliceMetadata>
+            <gmd:MD_Metadata id="uuid.12ba2063-e43c-45f4-8104-a861d83424b0">
+              <gmd:contact />
+              <gmd:dateStamp />
+              <gmd:metadataExtensionInfo />
+              <gmd:identificationInfo>
+                <gmd:MD_DataIdentification id="uuid.998fb25d-20fc-4dda-ae2f-cca7c3010eef">
+                  <gmd:citation>
+                    <gmd:CI_Citation id="uuid.f6b7046a-161d-43e9-9100-bd621ee1c6b2">
+                      <gmd:title />
+                      <gmd:date>
+                        <gmd:CI_Date id="uuid.3e00038d-d35b-4e7d-9419-9f12e6bf128f">
+                          <gmd:date>
+                            <gco:DateTime>2023-04-14T16:56:39Z</gco:DateTime>
+                          </gmd:date>
+                          <gmd:dateType />
+                        </gmd:CI_Date>
+                      </gmd:date>
+                    </gmd:CI_Citation>
+                  </gmd:citation>
+                  <gmd:abstract />
+                  <gmd:language />
+                  <gmd:extent>
+                    <gmd:EX_Extent id="uuid.05625574-470d-438f-a44f-518306a5c218">
+                      <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent id="uuid.52c206ea-c0eb-45ab-a8d1-5ff10d689310">
+                          <gmd:extent>
+                            <gml:TimePeriod gml:id="uuid.73ec3eb9-39ef-47c2-88c4-7f3b63f4312d">
+                              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+                              <gml:endPosition indeterminatePosition="unknown" />
+                            </gml:TimePeriod>
+                          </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                      </gmd:temporalElement>
+                    </gmd:EX_Extent>
+                  </gmd:extent>
+                </gmd:MD_DataIdentification>
+              </gmd:identificationInfo>
+            </gmd:MD_Metadata>
+          </aixm:timeSliceMetadata>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.2c223347-c106-4a9c-9187-6a0c997212c5">
+              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown" />
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>OTHER:UZONE</aixm:type>
+          <aixm:designator>UZF004</aixm:designator>
+          <aixm:localType>COMMON</aixm:localType>
+          <aixm:name>CTR PIESTANY NO RESTRICTION</aixm:name>
+          <aixm:controlType>CIVIL</aixm:controlType>
+          <aixm:geometryComponent>
+            <aixm:AirspaceGeometryComponent gml:id="uuid.e708463c-573b-4f83-8542-c37b0684507b">
+              <aixm:theAirspaceVolume>
+                <aixm:AirspaceVolume gml:id="uuid.2b015a7d-a206-48db-97ea-e70566b3e807">
+                  <aixm:upperLimit uom="M">30</aixm:upperLimit>
+                  <aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+                  <aixm:lowerLimit>GND</aixm:lowerLimit>
+                  <aixm:contributorAirspace>
+                    <aixm:AirspaceVolumeDependency gml:id="uuid.a352135b-65af-4d26-8e2c-9a2ae0825117">
+                      <aixm:dependency>HORZ_PROJECTION</aixm:dependency>
+                      <aixm:theAirspace xlink:href="#b9307ce3-5804-45f9-a3e8-e39a9286f4ff" xlink:title="ASCTRLZPP" />
+                    </aixm:AirspaceVolumeDependency>
+                  </aixm:contributorAirspace>
+                </aixm:AirspaceVolume>
+              </aixm:theAirspaceVolume>
+            </aixm:AirspaceGeometryComponent>
+          </aixm:geometryComponent>
+          <aixm:activation>
+            <aixm:AirspaceActivation gml:id="uuid.c5caeb9c-b75c-40b4-a54c-f75dead488a7">
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.b96ddb41-141f-4884-8fa3-596a95005b56">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:day>ANY</aixm:day>
+                  <aixm:startTime>08:00</aixm:startTime>
+                  <aixm:endTime>12:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.a0dff922-b787-4568-94d1-77944609accf">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:day>ANY</aixm:day>
+                  <aixm:startTime>13:00</aixm:startTime>
+                  <aixm:endTime>16:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.a2fe3d79-2d68-477f-b2b6-c1400bf868f6">
+                  <aixm:purpose>OTHER:DATE_FROM</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.3f63fb9c-fd33-4a77-bbfd-641c1bd7d317">
+                      <aixm:note>2023-03-15 16:00</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.4625e103-3f6e-49d7-9ccd-bee3507a5545">
+                  <aixm:purpose>OTHER:DATE_TO</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.2b9d961c-74a8-4438-a053-e7775eb708d7">
+                      <aixm:note>2023-03-30 18:00</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:AirspaceActivation>
+          </aixm:activation>
+          <aixm:activation>
+            <aixm:AirspaceActivation gml:id="uuid.a00e877b-fb1c-4e09-bb24-22736c8ad1f4">
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.67e9d5a7-92eb-4842-b244-c24b1a882453">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:day>ANY</aixm:day>
+                  <aixm:startTime>07:00</aixm:startTime>
+                  <aixm:endTime>11:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:timeInterval>
+                <aixm:Timesheet gml:id="uuid.a230da70-2617-4cf4-99c0-af3799e2d51e">
+                  <aixm:timeReference>UTC</aixm:timeReference>
+                  <aixm:day>ANY</aixm:day>
+                  <aixm:startTime>12:00</aixm:startTime>
+                  <aixm:endTime>15:00</aixm:endTime>
+                  <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+                </aixm:Timesheet>
+              </aixm:timeInterval>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.d304d68c-4fa6-4d11-a315-a85dfd5fbbf7">
+                  <aixm:purpose>OTHER:DATE_FROM</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.729bb86a-0b10-449b-9247-dd4006ccddb6">
+                      <aixm:note>2023-04-01 16:00</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+              <aixm:annotation>
+                <aixm:Note gml:id="uuid.5eb4115e-c91f-4996-82e5-ca6a9684f94a">
+                  <aixm:purpose>OTHER:DATE_TO</aixm:purpose>
+                  <aixm:translatedNote>
+                    <aixm:LinguisticNote gml:id="uuid.be4cd5dc-1c81-4303-8feb-47d8aa5561b3">
+                      <aixm:note>2023-04-30 18:00</aixm:note>
+                    </aixm:LinguisticNote>
+                  </aixm:translatedNote>
+                </aixm:Note>
+              </aixm:annotation>
+            </aixm:AirspaceActivation>
+          </aixm:activation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.5e91060d-f7d9-448b-9b61-bcd02cb6ea52">
+              <aixm:purpose>OTHER:RESTRICTION</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.4972fce0-8393-4efe-8bbe-0b9da3fa5c81">
+                  <aixm:note>NO RESTRICTION</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.98647f20-0c7b-4e32-9f42-d4fa51b04990">
+              <aixm:purpose>OTHER:CONDITIONS</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.a1408cc1-7c0c-41f9-989f-9ed50bbab35f">
+                  <aixm:note>No restriction distance greater than 2.5NM from ARP LZPP</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.5cae9a17-dd8d-4f0a-9173-9a3a22a684d1">
+              <aixm:purpose>OTHER:REGION</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.858f5f55-9a93-4360-8684-dbb3779bf3c0">
+                  <aixm:note>Trnavsky kraj</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.78370966-1629-4b10-a4a8-824ac6815a7d">
+              <aixm:purpose>OTHER:REASON</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.bd47c9dc-87fb-42e1-8e7e-3acec66b53e4">
+                  <aixm:note>AIR_TRAFFIC</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.eb669fa9-9378-4ccf-a699-5cd8cff130c0">
+              <aixm:purpose>OTHER:REASON_INFO</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.e1910921-2e8a-4496-aeed-da71aba86881">
+                  <aixm:note>Some info</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.5f09e7f6-b8da-4529-af29-5d3c819f4103">
+              <aixm:purpose>OTHER:MESSAGE</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.f0c3bba9-3eb9-479a-aab1-51c4eb3b1b58">
+                  <aixm:note>Some message</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.9a1206c3-fa1c-4af2-a2f1-c7c85e826739">
+              <aixm:purpose>DESCRIPTION</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.542b52ec-7859-43c6-8166-044fbaa0e14a">
+                  <aixm:note>Scenario UZONE:  horizontal projection with restrictionCondition</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:AirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:Airspace>
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:AuthorityForAirspace gml:id="uuid.238db88c-88c3-4f38-91e1-8758233b7944">
+      <gml:identifier codeSpace="urn:uuid:">d09c9e96-d4ba-464c-9a25-95bf16213b4b</gml:identifier>
+      <aixm:featureMetadata>
+        <gmd:MD_Metadata id="uuid.c0b6f46b-5666-4e82-9d85-d922b1b7f1e5">
+          <gmd:contact />
+          <gmd:dateStamp />
+          <gmd:identificationInfo>
+            <gmd:MD_DataIdentification id="uuid.b06f5fd7-5af8-4124-8a79-e179e0dd6754">
+              <gmd:citation>
+                <gmd:CI_Citation id="uuid.8eaa7a06-0223-4b8a-a870-4c63a6ec36a1">
+                  <gmd:title />
+                  <gmd:date>
+                    <gmd:CI_Date id="uuid.095a0d6b-a36a-4d0a-b630-750c7309a041">
+                      <gmd:date>
+                        <gco:DateTime>2023-04-05T16:14:11Z</gco:DateTime>
+                      </gmd:date>
+                      <gmd:dateType />
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:citation>
+              <gmd:abstract />
+              <gmd:language />
+            </gmd:MD_DataIdentification>
+          </gmd:identificationInfo>
+        </gmd:MD_Metadata>
+      </aixm:featureMetadata>
+      <aixm:timeSlice>
+        <aixm:AuthorityForAirspaceTimeSlice gml:id="uuid.8fb784af-887d-42e7-a7ce-447cc7fb6074">
+          <gml:validTime>
+            <gml:TimeInstant gml:id="uuid.845f3989-839e-4917-a057-3a324318a396">
+              <gml:timePosition>2025-01-15T00:00:00Z</gml:timePosition>
+            </gml:TimeInstant>
+          </gml:validTime>
+          <aixm:interpretation>SNAPSHOT</aixm:interpretation>
+          <aixm:timeSliceMetadata>
+            <gmd:MD_Metadata id="uuid.df3dce8f-9d16-4ff2-9911-4a6aa0f272fc">
+              <gmd:contact />
+              <gmd:dateStamp />
+              <gmd:metadataExtensionInfo />
+              <gmd:identificationInfo>
+                <gmd:MD_DataIdentification id="uuid.0c755f93-e0e0-4c01-937f-ca1486038375">
+                  <gmd:citation>
+                    <gmd:CI_Citation id="uuid.5b22faf3-7a03-4d54-bcf4-df0c9e7fd7b3">
+                      <gmd:title />
+                      <gmd:date>
+                        <gmd:CI_Date id="uuid.d4ebabbc-a49f-420c-93ae-c19d4b24d58f">
+                          <gmd:date>
+                            <gco:DateTime>2023-04-06T12:35:18Z</gco:DateTime>
+                          </gmd:date>
+                          <gmd:dateType />
+                        </gmd:CI_Date>
+                      </gmd:date>
+                    </gmd:CI_Citation>
+                  </gmd:citation>
+                  <gmd:abstract />
+                  <gmd:language />
+                  <gmd:extent>
+                    <gmd:EX_Extent id="uuid.0247eb19-f922-4df3-85fb-104245dacb0b">
+                      <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent id="uuid.531e9ffd-b44f-4169-9241-0dad3fd6add4">
+                          <gmd:extent>
+                            <gml:TimePeriod gml:id="uuid.62fada00-0182-4c3c-8c4c-6ffed8362d68">
+                              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+                              <gml:endPosition indeterminatePosition="unknown" />
+                            </gml:TimePeriod>
+                          </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                      </gmd:temporalElement>
+                    </gmd:EX_Extent>
+                  </gmd:extent>
+                </gmd:MD_DataIdentification>
+              </gmd:identificationInfo>
+            </gmd:MD_Metadata>
+          </aixm:timeSliceMetadata>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.6bb25132-5eaf-4d4e-9b35-58d1f4198637">
+              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown" />
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>OTHER:INFORMATION</aixm:type>
+          <aixm:responsibleOrganisation xlink:href="#9a5a9f0b-0b34-4734-a47c-5f0d7b721e17" xlink:title="OAANSPSVK" />
+          <aixm:assignedAirspace xlink:href="#e893c55b-d4f4-448c-b7be-83fddc8f75de" xlink:title="UZP001" />
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.4d21243c-4e99-4ca7-b310-afd2d53cad0a">
+              <aixm:propertyName>label</aixm:propertyName>
+              <aixm:purpose>OTHER:designator</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.ef863d2c-104b-4685-8448-c1243acf1dd2">
+                  <aixm:note>AAUZ001 LPS INFO</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:AuthorityForAirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:AuthorityForAirspace>
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:AuthorityForAirspace gml:id="uuid.361c3355-4f02-4225-8881-3929ecea7054">
+      <gml:identifier codeSpace="urn:uuid:">361c3355-4f02-4225-8881-3929ecea7054</gml:identifier>
+      <aixm:featureMetadata>
+        <gmd:MD_Metadata>
+          <gmd:contact />
+          <gmd:dateStamp />
+          <gmd:identificationInfo>
+            <gmd:MD_DataIdentification>
+              <gmd:citation>
+                <gmd:CI_Citation>
+                  <gmd:title />
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:DateTime>2023-04-05T15:17:05Z</gco:DateTime>
+                      </gmd:date>
+                      <gmd:dateType />
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:citation>
+              <gmd:abstract />
+              <gmd:language />
+            </gmd:MD_DataIdentification>
+          </gmd:identificationInfo>
+        </gmd:MD_Metadata>
+      </aixm:featureMetadata>
+      <aixm:timeSlice>
+        <aixm:AuthorityForAirspaceTimeSlice gml:id="uuid.0f90823c-0fea-43b3-8934-7c02dd0a0d81">
+          <gml:validTime>
+            <gml:TimeInstant gml:id="uuid.5a4792db-9332-472e-a08a-7932ff596f76">
+              <gml:timePosition>2025-01-15T00:00:00Z</gml:timePosition>
+            </gml:TimeInstant>
+          </gml:validTime>
+          <aixm:interpretation>SNAPSHOT</aixm:interpretation>
+          <aixm:timeSliceMetadata>
+            <gmd:MD_Metadata id="uuid.ba165182-3a23-4c40-b558-70adc0574885">
+              <gmd:contact />
+              <gmd:dateStamp />
+              <gmd:metadataExtensionInfo />
+              <gmd:identificationInfo>
+                <gmd:MD_DataIdentification id="uuid.8443e0a4-8aab-414c-93de-c72ecbee020c">
+                  <gmd:citation>
+                    <gmd:CI_Citation id="uuid.239bb8e5-7bf2-4739-b3f5-36fc2d71ce79">
+                      <gmd:title />
+                      <gmd:date>
+                        <gmd:CI_Date id="uuid.9019c59a-d63f-4015-a518-7678d4e3b0d2">
+                          <gmd:date>
+                            <gco:DateTime>2023-04-06T13:01:14Z</gco:DateTime>
+                          </gmd:date>
+                          <gmd:dateType />
+                        </gmd:CI_Date>
+                      </gmd:date>
+                    </gmd:CI_Citation>
+                  </gmd:citation>
+                  <gmd:abstract />
+                  <gmd:language />
+                  <gmd:extent>
+                    <gmd:EX_Extent id="uuid.cb5abda3-8ae4-44a7-8d4f-534ed69c9715">
+                      <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent id="uuid.2e3e04bd-eabf-4564-9ae9-a2288c850aa5">
+                          <gmd:extent>
+                            <gml:TimePeriod gml:id="uuid.0a21f309-62bb-496a-b9cc-ca08acac80bf">
+                              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+                              <gml:endPosition indeterminatePosition="unknown" />
+                            </gml:TimePeriod>
+                          </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                      </gmd:temporalElement>
+                    </gmd:EX_Extent>
+                  </gmd:extent>
+                </gmd:MD_DataIdentification>
+              </gmd:identificationInfo>
+            </gmd:MD_Metadata>
+          </aixm:timeSliceMetadata>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.e059dbb3-63fb-4e9d-addd-986344950e49">
+              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown" />
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>OTHER:AUTHORIZATION</aixm:type>
+          <aixm:responsibleOrganisation xlink:href="#9a5a9f0b-0b34-4734-a47c-5f0d7b721e17" xlink:title="OAANSPSVK" />
+          <aixm:assignedAirspace xlink:href="#8ea1af5a-145d-4cbc-863a-52a173fe7953" xlink:title="UZA003" />
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.b336ec77-c181-4cc4-9fe8-58fb6d7ac282">
+              <aixm:propertyName>label</aixm:propertyName>
+              <aixm:purpose>OTHER:designator</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.9cbbf2cb-56bc-440a-a761-ebf1beb8d93c">
+                  <aixm:note>AAUZA003 AUTHORIZATION</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.907290be-8043-4b3f-8dd1-711f81facd90">
+              <aixm:purpose>OTHER:PN</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.f74d96c5-f9f3-411c-a20c-79c109ee54e9">
+                  <aixm:note>PT24H</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:AuthorityForAirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:AuthorityForAirspace>
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:AuthorityForAirspace gml:id="uuid.7594c27c-23df-449e-9172-89a9c4cfa0ca">
+      <gml:identifier codeSpace="urn:uuid:">6bd65b21-df84-44d5-b708-e4d69c18772a</gml:identifier>
+      <aixm:featureMetadata>
+        <gmd:MD_Metadata id="uuid.69fca9f1-a038-4bee-af21-ae4b1d7ba4c8">
+          <gmd:contact />
+          <gmd:dateStamp />
+          <gmd:identificationInfo>
+            <gmd:MD_DataIdentification id="uuid.726ae7e1-5c39-4424-aac5-df9952a646eb">
+              <gmd:citation>
+                <gmd:CI_Citation id="uuid.afb2cc78-ceb6-49d9-a132-4b762a27f5f0">
+                  <gmd:title />
+                  <gmd:date>
+                    <gmd:CI_Date id="uuid.bb20db78-d126-42d9-b34a-4ee7308b0a51">
+                      <gmd:date>
+                        <gco:DateTime>2023-04-05T16:14:54Z</gco:DateTime>
+                      </gmd:date>
+                      <gmd:dateType />
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:citation>
+              <gmd:abstract />
+              <gmd:language />
+            </gmd:MD_DataIdentification>
+          </gmd:identificationInfo>
+        </gmd:MD_Metadata>
+      </aixm:featureMetadata>
+      <aixm:timeSlice>
+        <aixm:AuthorityForAirspaceTimeSlice gml:id="uuid.03760844-3cb9-49d5-b7f1-789cd890f3d3">
+          <gml:validTime>
+            <gml:TimeInstant gml:id="uuid.880678da-b558-4c72-a1bc-f13cc4f65ada">
+              <gml:timePosition>2025-01-15T00:00:00Z</gml:timePosition>
+            </gml:TimeInstant>
+          </gml:validTime>
+          <aixm:interpretation>SNAPSHOT</aixm:interpretation>
+          <aixm:timeSliceMetadata>
+            <gmd:MD_Metadata id="uuid.db338d03-3448-4b6c-a137-3a1a5c7faa47">
+              <gmd:contact />
+              <gmd:dateStamp />
+              <gmd:metadataExtensionInfo />
+              <gmd:identificationInfo>
+                <gmd:MD_DataIdentification id="uuid.a918ecbf-d5c0-4a96-83a6-600c131072ef">
+                  <gmd:citation>
+                    <gmd:CI_Citation id="uuid.159ba08e-82e2-47b3-96ad-319ffbaac6a9">
+                      <gmd:title />
+                      <gmd:date>
+                        <gmd:CI_Date id="uuid.f8ebdaf1-f65c-4d73-a88c-4330b81744cc">
+                          <gmd:date>
+                            <gco:DateTime>2023-04-06T13:58:53Z</gco:DateTime>
+                          </gmd:date>
+                          <gmd:dateType />
+                        </gmd:CI_Date>
+                      </gmd:date>
+                    </gmd:CI_Citation>
+                  </gmd:citation>
+                  <gmd:abstract />
+                  <gmd:language />
+                  <gmd:extent>
+                    <gmd:EX_Extent id="uuid.7f84e207-c6dc-4310-b4cc-4361379b52e4">
+                      <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent id="uuid.ce21d6af-c171-45e7-a9d3-142a93fc0af9">
+                          <gmd:extent>
+                            <gml:TimePeriod gml:id="uuid.6e1aa7db-1b98-4888-8bf0-310ccfc53e54">
+                              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+                              <gml:endPosition indeterminatePosition="unknown" />
+                            </gml:TimePeriod>
+                          </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                      </gmd:temporalElement>
+                    </gmd:EX_Extent>
+                  </gmd:extent>
+                </gmd:MD_DataIdentification>
+              </gmd:identificationInfo>
+            </gmd:MD_Metadata>
+          </aixm:timeSliceMetadata>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.be7a0c5f-1617-43b1-b264-d6d5a11e595c">
+              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown" />
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>OTHER:INFORMATION</aixm:type>
+          <aixm:responsibleOrganisation xlink:href="#42d7c4f8-21d9-4a1f-901d-cb05defcaacf" xlink:title="OAUSSP01" />
+          <aixm:assignedAirspace xlink:href="#8ea1af5a-145d-4cbc-863a-52a173fe7953" xlink:title="UZA003" />
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.7e57a776-7ca2-4b53-b0f1-41fed45ff562">
+              <aixm:propertyName>label</aixm:propertyName>
+              <aixm:purpose>OTHER:designator</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.644e91df-65f5-470f-a0d8-c0133502e032">
+                  <aixm:note>AAUZA003 INFO</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.67aa4fc5-a69b-4a22-b092-b697bd841bf2">
+              <aixm:purpose>OTHER:PN</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.8451d8e6-67e6-4e4d-9ae9-dd774a05d0a9">
+                  <aixm:note>PT15M</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:AuthorityForAirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:AuthorityForAirspace>
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:AuthorityForAirspace gml:id="uuid.578a6582-168b-41ba-87dc-00c3f3652276">
+      <gml:identifier codeSpace="urn:uuid:">4288370c-7b9f-45e1-ba7d-967d10db28b5</gml:identifier>
+      <aixm:featureMetadata>
+        <gmd:MD_Metadata>
+          <gmd:contact />
+          <gmd:dateStamp />
+          <gmd:identificationInfo>
+            <gmd:MD_DataIdentification>
+              <gmd:citation>
+                <gmd:CI_Citation>
+                  <gmd:title />
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:DateTime>2023-04-06T07:51:01Z</gco:DateTime>
+                      </gmd:date>
+                      <gmd:dateType />
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:citation>
+              <gmd:abstract />
+              <gmd:language />
+            </gmd:MD_DataIdentification>
+          </gmd:identificationInfo>
+        </gmd:MD_Metadata>
+      </aixm:featureMetadata>
+      <aixm:timeSlice>
+        <aixm:AuthorityForAirspaceTimeSlice gml:id="uuid.c40c38ce-5a61-4c8d-a6d5-8bb37209f523">
+          <gml:validTime>
+            <gml:TimeInstant gml:id="uuid.054766fe-d421-4b35-b06a-f5494d59ee58">
+              <gml:timePosition>2025-01-15T00:00:00Z</gml:timePosition>
+            </gml:TimeInstant>
+          </gml:validTime>
+          <aixm:interpretation>SNAPSHOT</aixm:interpretation>
+          <aixm:timeSliceMetadata>
+            <gmd:MD_Metadata id="uuid.fea7ec6b-0f14-4e0d-b8b7-38485fcac8ae">
+              <gmd:contact />
+              <gmd:dateStamp />
+              <gmd:metadataExtensionInfo />
+              <gmd:identificationInfo>
+                <gmd:MD_DataIdentification id="uuid.30fca2e2-d7e7-4997-bbe2-5d3b2d1b228b">
+                  <gmd:citation>
+                    <gmd:CI_Citation id="uuid.81995ffa-f8af-4c89-9e0e-476da54e865a">
+                      <gmd:title />
+                      <gmd:date>
+                        <gmd:CI_Date id="uuid.72056507-52ba-49ab-8bcd-d5ba250df295">
+                          <gmd:date>
+                            <gco:DateTime>2023-04-06T12:35:39Z</gco:DateTime>
+                          </gmd:date>
+                          <gmd:dateType />
+                        </gmd:CI_Date>
+                      </gmd:date>
+                    </gmd:CI_Citation>
+                  </gmd:citation>
+                  <gmd:abstract />
+                  <gmd:language />
+                  <gmd:extent>
+                    <gmd:EX_Extent id="uuid.d6c30858-750e-4a98-b53d-bf4aca0a14b9">
+                      <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent id="uuid.6ba56640-de48-48e8-907e-125bd173bf0c">
+                          <gmd:extent>
+                            <gml:TimePeriod gml:id="uuid.9fd4232c-9ac6-4836-9ede-e23060eb1676">
+                              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+                              <gml:endPosition indeterminatePosition="unknown" />
+                            </gml:TimePeriod>
+                          </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                      </gmd:temporalElement>
+                    </gmd:EX_Extent>
+                  </gmd:extent>
+                </gmd:MD_DataIdentification>
+              </gmd:identificationInfo>
+            </gmd:MD_Metadata>
+          </aixm:timeSliceMetadata>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.d69ac34b-3d44-4d6e-9b91-6b5117dc7506">
+              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown" />
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>OWN</aixm:type>
+          <aixm:responsibleOrganisation xlink:href="#af0c7438-1d37-4c00-b0b6-f72849cfbe79" xlink:title="OANSAT" />
+          <aixm:assignedAirspace xlink:href="#b9307ce3-5804-45f9-a3e8-e39a9286f4ff" xlink:title="ASCTRLZPP" />
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.b051fd14-9b6c-44a1-a40b-e35a5b88808b">
+              <aixm:propertyName>label</aixm:propertyName>
+              <aixm:purpose>OTHER:designator</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.aefaeb6a-144d-48c3-bc12-d6fd54db251d">
+                  <aixm:note>AACTRLZPP OWN</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:AuthorityForAirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:AuthorityForAirspace>
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:AuthorityForAirspace gml:id="uuid.bfa57742-890f-4a96-9664-529b8dff1bf1">
+      <gml:identifier codeSpace="urn:uuid:">bfa57742-890f-4a96-9664-529b8dff1bf1</gml:identifier>
+      <aixm:featureMetadata>
+        <gmd:MD_Metadata>
+          <gmd:contact />
+          <gmd:dateStamp />
+          <gmd:identificationInfo>
+            <gmd:MD_DataIdentification>
+              <gmd:citation>
+                <gmd:CI_Citation>
+                  <gmd:title />
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:DateTime>2023-04-06T07:51:01Z</gco:DateTime>
+                      </gmd:date>
+                      <gmd:dateType />
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:citation>
+              <gmd:abstract />
+              <gmd:language />
+            </gmd:MD_DataIdentification>
+          </gmd:identificationInfo>
+        </gmd:MD_Metadata>
+      </aixm:featureMetadata>
+      <aixm:timeSlice>
+        <aixm:AuthorityForAirspaceTimeSlice gml:id="uuid.f073c792-9ccb-45b3-8013-564e6917dc18">
+          <gml:validTime>
+            <gml:TimeInstant gml:id="uuid.0fbfe53e-6202-403f-9f5d-75b312d2bb48">
+              <gml:timePosition>2025-01-15T00:00:00Z</gml:timePosition>
+            </gml:TimeInstant>
+          </gml:validTime>
+          <aixm:interpretation>SNAPSHOT</aixm:interpretation>
+          <aixm:timeSliceMetadata>
+            <gmd:MD_Metadata id="uuid.eecba420-e1e4-42d0-b38c-50960f21fcdd">
+              <gmd:contact />
+              <gmd:dateStamp />
+              <gmd:metadataExtensionInfo />
+              <gmd:identificationInfo>
+                <gmd:MD_DataIdentification id="uuid.cea806ca-d770-4d4a-84c2-1d56e5a8b4b5">
+                  <gmd:citation>
+                    <gmd:CI_Citation id="uuid.6bf54180-c18c-482f-8a0a-0e75382e1f1f">
+                      <gmd:title />
+                      <gmd:date>
+                        <gmd:CI_Date id="uuid.1c94aa13-bad0-4a16-b556-309ebbe5d0d2">
+                          <gmd:date>
+                            <gco:DateTime>2023-04-06T12:34:35Z</gco:DateTime>
+                          </gmd:date>
+                          <gmd:dateType />
+                        </gmd:CI_Date>
+                      </gmd:date>
+                    </gmd:CI_Citation>
+                  </gmd:citation>
+                  <gmd:abstract />
+                  <gmd:language />
+                  <gmd:extent>
+                    <gmd:EX_Extent id="uuid.18e2f80a-ddc0-4ddc-92b0-43a44ae47655">
+                      <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent id="uuid.1c93e751-0812-4adb-8e73-535f30055bac">
+                          <gmd:extent>
+                            <gml:TimePeriod gml:id="uuid.d3e9daca-839a-4ebe-8d9d-c0ecc42cd0a0">
+                              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+                              <gml:endPosition indeterminatePosition="unknown" />
+                            </gml:TimePeriod>
+                          </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                      </gmd:temporalElement>
+                    </gmd:EX_Extent>
+                  </gmd:extent>
+                </gmd:MD_DataIdentification>
+              </gmd:identificationInfo>
+            </gmd:MD_Metadata>
+          </aixm:timeSliceMetadata>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.52c42f6c-d4d2-49a6-812b-e03abe2482b1">
+              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown" />
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>AIS</aixm:type>
+          <aixm:responsibleOrganisation xlink:href="#9a5a9f0b-0b34-4734-a47c-5f0d7b721e17" xlink:title="OAANSPSVK" />
+          <aixm:assignedAirspace xlink:href="#b9307ce3-5804-45f9-a3e8-e39a9286f4ff" xlink:title="ASCTRLZPP" />
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.8c084f22-e19d-48ae-9fae-a6ce21a21afb">
+              <aixm:propertyName>label</aixm:propertyName>
+              <aixm:purpose>OTHER:designator</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.cfe073da-4b64-4e40-b7b1-ad7ea733be72">
+                  <aixm:note>AACTRLZPP AIS</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:AuthorityForAirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:AuthorityForAirspace>
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:AuthorityForAirspace gml:id="uuid.158b97cb-93f0-4d8c-b342-8e0dfe6cb2de">
+      <gml:identifier codeSpace="urn:uuid:">4362f506-4485-49c5-89cb-daf661fec5fa</gml:identifier>
+      <aixm:featureMetadata>
+        <gmd:MD_Metadata id="uuid.66c136c1-0629-4324-8f5b-d0e3aa242daa">
+          <gmd:contact />
+          <gmd:dateStamp />
+          <gmd:identificationInfo>
+            <gmd:MD_DataIdentification id="uuid.b560da0f-6eda-45cb-9d21-ab3a3698f705">
+              <gmd:citation>
+                <gmd:CI_Citation id="uuid.c1fc57af-6528-4d68-b7ef-4e6d3af072c7">
+                  <gmd:title />
+                  <gmd:date>
+                    <gmd:CI_Date id="uuid.eeff742a-5be6-4405-b196-338cba617555">
+                      <gmd:date>
+                        <gco:DateTime>2023-04-06T13:04:43Z</gco:DateTime>
+                      </gmd:date>
+                      <gmd:dateType />
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:citation>
+              <gmd:abstract />
+              <gmd:language />
+            </gmd:MD_DataIdentification>
+          </gmd:identificationInfo>
+        </gmd:MD_Metadata>
+      </aixm:featureMetadata>
+      <aixm:timeSlice>
+        <aixm:AuthorityForAirspaceTimeSlice gml:id="uuid.887e4af1-410e-4354-a127-5226f4448cbe">
+          <gml:validTime>
+            <gml:TimeInstant gml:id="uuid.11f7a4fc-2e9f-4821-988f-b8fef291c670">
+              <gml:timePosition>2025-01-15T00:00:00Z</gml:timePosition>
+            </gml:TimeInstant>
+          </gml:validTime>
+          <aixm:interpretation>SNAPSHOT</aixm:interpretation>
+          <aixm:timeSliceMetadata>
+            <gmd:MD_Metadata id="uuid.d7e66e0f-8c75-403d-b51c-d76ccc01a396">
+              <gmd:contact />
+              <gmd:dateStamp />
+              <gmd:metadataExtensionInfo />
+              <gmd:identificationInfo>
+                <gmd:MD_DataIdentification id="uuid.f2fad7d5-4af6-4679-b5d5-83083077cc04">
+                  <gmd:citation>
+                    <gmd:CI_Citation id="uuid.b3e6720e-1a7c-4b2b-ae24-94bb96791569">
+                      <gmd:title />
+                      <gmd:date>
+                        <gmd:CI_Date id="uuid.437e4b35-3d2d-4f9b-a312-fb3db137358a">
+                          <gmd:date>
+                            <gco:DateTime>2023-04-06T13:04:43Z</gco:DateTime>
+                          </gmd:date>
+                          <gmd:dateType />
+                        </gmd:CI_Date>
+                      </gmd:date>
+                    </gmd:CI_Citation>
+                  </gmd:citation>
+                  <gmd:abstract />
+                  <gmd:language />
+                  <gmd:extent>
+                    <gmd:EX_Extent id="uuid.d5d2ef1c-94fe-41e9-ba2f-05914011a8d4">
+                      <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent id="uuid.256db4af-1ce2-4d0f-9019-07c1ec4eaf79">
+                          <gmd:extent>
+                            <gml:TimePeriod gml:id="uuid.b84c0a49-fff2-4119-ab70-6e83a54465b2">
+                              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+                              <gml:endPosition indeterminatePosition="unknown" />
+                            </gml:TimePeriod>
+                          </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                      </gmd:temporalElement>
+                    </gmd:EX_Extent>
+                  </gmd:extent>
+                </gmd:MD_DataIdentification>
+              </gmd:identificationInfo>
+            </gmd:MD_Metadata>
+          </aixm:timeSliceMetadata>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.30454b9a-3b15-4cdb-8c1a-9095d3dd4acb">
+              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown" />
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:type>OTHER:AUTHORIZATION</aixm:type>
+          <aixm:responsibleOrganisation xlink:href="#9a5a9f0b-0b34-4734-a47c-5f0d7b721e17" xlink:title="OAANSPSVK" />
+          <aixm:assignedAirspace xlink:href="#e0b26152-17a2-4059-a0c7-65660395f0ae" xlink:title="UZA002" />
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.017cf4bd-c1e7-4dcf-8c6b-db5a257acc77">
+              <aixm:propertyName>label</aixm:propertyName>
+              <aixm:purpose>OTHER:designator</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.538e4b08-f527-4f04-b729-29355a4fb7ae">
+                  <aixm:note>AAUZA002 AUTHORIZATION</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+          <aixm:annotation>
+            <aixm:Note gml:id="uuid.5710e1a7-9925-4277-ba69-1180052fe197">
+              <aixm:purpose>OTHER:PN</aixm:purpose>
+              <aixm:translatedNote>
+                <aixm:LinguisticNote gml:id="uuid.ec80de34-41b6-469b-89f8-d637cfda624d">
+                  <aixm:note>PT24H</aixm:note>
+                </aixm:LinguisticNote>
+              </aixm:translatedNote>
+            </aixm:Note>
+          </aixm:annotation>
+        </aixm:AuthorityForAirspaceTimeSlice>
+      </aixm:timeSlice>
+    </aixm:AuthorityForAirspace>
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:OrganisationAuthority gml:id="uuid.af0c7438-1d37-4c00-b0b6-f72849cfbe79">
+      <gml:identifier codeSpace="urn:uuid:">af0c7438-1d37-4c00-b0b6-f72849cfbe79</gml:identifier>
+      <aixm:featureMetadata>
+        <gmd:MD_Metadata>
+          <gmd:contact />
+          <gmd:dateStamp />
+          <gmd:identificationInfo>
+            <gmd:MD_DataIdentification>
+              <gmd:citation>
+                <gmd:CI_Citation>
+                  <gmd:title />
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:DateTime>2023-04-05T14:16:22Z</gco:DateTime>
+                      </gmd:date>
+                      <gmd:dateType />
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:citation>
+              <gmd:abstract />
+              <gmd:language />
+            </gmd:MD_DataIdentification>
+          </gmd:identificationInfo>
+        </gmd:MD_Metadata>
+      </aixm:featureMetadata>
+      <aixm:timeSlice>
+        <aixm:OrganisationAuthorityTimeSlice gml:id="uuid.714a92c2-635f-4bd9-8409-f76d52ed856f">
+          <gml:validTime>
+            <gml:TimeInstant gml:id="uuid.0708eb69-ba02-445b-b3fb-11c65090b7d8">
+              <gml:timePosition>2025-01-15T00:00:00Z</gml:timePosition>
+            </gml:TimeInstant>
+          </gml:validTime>
+          <aixm:interpretation>SNAPSHOT</aixm:interpretation>
+          <aixm:timeSliceMetadata>
+            <gmd:MD_Metadata id="uuid.3642b1c0-dc33-498f-a5e8-de02b992408a">
+              <gmd:contact />
+              <gmd:dateStamp />
+              <gmd:metadataExtensionInfo />
+              <gmd:identificationInfo>
+                <gmd:MD_DataIdentification id="uuid.6da2c1f5-b3ac-4978-81c8-c7545845c7f4">
+                  <gmd:citation>
+                    <gmd:CI_Citation id="uuid.36782f76-474d-4540-a568-560f259f5acc">
+                      <gmd:title />
+                      <gmd:date>
+                        <gmd:CI_Date id="uuid.d9e0ba86-8882-44ef-96ef-e9163bf5e1a0">
+                          <gmd:date>
+                            <gco:DateTime>2023-04-06T06:47:52Z</gco:DateTime>
+                          </gmd:date>
+                          <gmd:dateType />
+                        </gmd:CI_Date>
+                      </gmd:date>
+                    </gmd:CI_Citation>
+                  </gmd:citation>
+                  <gmd:abstract />
+                  <gmd:language />
+                  <gmd:extent>
+                    <gmd:EX_Extent id="uuid.d6f86ced-9f00-4905-bc3f-3d2cf334b64a">
+                      <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent id="uuid.fa73dc89-17ed-4441-9c20-ad64b0be6a26">
+                          <gmd:extent>
+                            <gml:TimePeriod gml:id="uuid.4f9a55f0-6da3-451b-82c6-192c8723c689">
+                              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+                              <gml:endPosition indeterminatePosition="unknown" />
+                            </gml:TimePeriod>
+                          </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                      </gmd:temporalElement>
+                    </gmd:EX_Extent>
+                  </gmd:extent>
+                </gmd:MD_DataIdentification>
+              </gmd:identificationInfo>
+            </gmd:MD_Metadata>
+          </aixm:timeSliceMetadata>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.f6e4a01b-7e68-4fe3-87b9-05747e0f4888">
+              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown" />
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:name>TRANSPORT AUTHORITY</aixm:name>
+          <aixm:designator>OANSAT</aixm:designator>
+          <aixm:type>STATE</aixm:type>
+          <aixm:military>CIVIL</aixm:military>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.f67a3904-aea9-4d90-8bd0-1bdc48838c23">
+              <aixm:name>NAME NOT FOR JSON-1</aixm:name>
+              <aixm:address>
+                <aixm:PostalAddress gml:id="uuid.abbe3bb7-cc3d-4589-a85d-89a4168f6ab5">
+                  <aixm:city>BRATISLAVA</aixm:city>
+                  <aixm:postalCode>082101</aixm:postalCode>
+                  <aixm:country>SVK</aixm:country>
+                </aixm:PostalAddress>
+              </aixm:address>
+              <aixm:networkNode>
+                <aixm:OnlineContact gml:id="uuid.ab0a80a3-04c6-461c-a4d6-a751096a0c7c">
+                  <aixm:linkage>URL NSAT-1</aixm:linkage>
+                  <aixm:eMail>MAIL NSAT-1</aixm:eMail>
+                </aixm:OnlineContact>
+              </aixm:networkNode>
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="uuid.398b3175-3d92-41cc-b648-cc6f7ac8cb5d">
+                  <aixm:voice>TEL NSAT-1</aixm:voice>
+                </aixm:TelephoneContact>
+              </aixm:phoneFax>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.1ff9ed0c-5685-498b-9cd7-f29cad616dbe">
+              <aixm:name>UAS NAME FOR JSON-2</aixm:name>
+              <aixm:networkNode>
+                <aixm:OnlineContact gml:id="uuid.ae17da2d-b548-42d6-89a1-5532ce3439db">
+                  <aixm:network>INTERNET</aixm:network>
+                  <aixm:linkage>URL NSAT-2</aixm:linkage>
+                  <aixm:eMail>MAIL NSAT-2</aixm:eMail>
+                </aixm:OnlineContact>
+              </aixm:networkNode>
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="uuid.6e43eaab-a0bd-4af8-95ef-3afac60628c9">
+                  <aixm:voice>TEL NSAT-2</aixm:voice>
+                </aixm:TelephoneContact>
+              </aixm:phoneFax>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.532e1922-415f-4bc7-8ca8-e120f11bd11d">
+              <aixm:name>UAS NAME FOR JSON-3</aixm:name>
+              <aixm:networkNode>
+                <aixm:OnlineContact gml:id="uuid.1f7e0455-450d-4b17-bfd1-1e1535f2a65c">
+                  <aixm:network>INTERNET</aixm:network>
+                  <aixm:linkage>URL NSAT-3</aixm:linkage>
+                  <aixm:eMail>MAIL NSAT-3</aixm:eMail>
+                </aixm:OnlineContact>
+              </aixm:networkNode>
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="uuid.fc22d3d8-22e8-4026-b111-71af6fe9abc8">
+                  <aixm:voice>TEL NSAT-3</aixm:voice>
+                </aixm:TelephoneContact>
+              </aixm:phoneFax>
+            </aixm:ContactInformation>
+          </aixm:contact>
+        </aixm:OrganisationAuthorityTimeSlice>
+      </aixm:timeSlice>
+    </aixm:OrganisationAuthority>
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:OrganisationAuthority gml:id="uuid.9a5a9f0b-0b34-4734-a47c-5f0d7b721e17">
+      <gml:identifier codeSpace="urn:uuid:">9a5a9f0b-0b34-4734-a47c-5f0d7b721e17</gml:identifier>
+      <aixm:featureMetadata>
+        <gmd:MD_Metadata>
+          <gmd:contact />
+          <gmd:dateStamp />
+          <gmd:identificationInfo>
+            <gmd:MD_DataIdentification>
+              <gmd:citation>
+                <gmd:CI_Citation>
+                  <gmd:title />
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:DateTime>2023-04-06T07:48:42Z</gco:DateTime>
+                      </gmd:date>
+                      <gmd:dateType />
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:citation>
+              <gmd:abstract />
+              <gmd:language />
+            </gmd:MD_DataIdentification>
+          </gmd:identificationInfo>
+        </gmd:MD_Metadata>
+      </aixm:featureMetadata>
+      <aixm:timeSlice>
+        <aixm:OrganisationAuthorityTimeSlice gml:id="uuid.29dbae49-61e0-4aa3-b1f7-aba423836b21">
+          <gml:validTime>
+            <gml:TimeInstant gml:id="uuid.8e5cfaf9-832c-4795-8c2a-7205551d46f6">
+              <gml:timePosition>2025-01-15T00:00:00Z</gml:timePosition>
+            </gml:TimeInstant>
+          </gml:validTime>
+          <aixm:interpretation>SNAPSHOT</aixm:interpretation>
+          <aixm:timeSliceMetadata>
+            <gmd:MD_Metadata id="uuid.24819cdb-7f60-45ba-a619-d33c7764058e">
+              <gmd:contact />
+              <gmd:dateStamp />
+              <gmd:metadataExtensionInfo />
+              <gmd:identificationInfo>
+                <gmd:MD_DataIdentification id="uuid.a2b2947c-3676-4ae1-863d-9b45b3d5de4b">
+                  <gmd:citation>
+                    <gmd:CI_Citation id="uuid.e03c5404-a00b-4526-91cd-67df9845d3c4">
+                      <gmd:title />
+                      <gmd:date>
+                        <gmd:CI_Date id="uuid.57222406-1342-492c-8926-f846afc7eedc">
+                          <gmd:date>
+                            <gco:DateTime>2023-04-06T07:48:42Z</gco:DateTime>
+                          </gmd:date>
+                          <gmd:dateType />
+                        </gmd:CI_Date>
+                      </gmd:date>
+                    </gmd:CI_Citation>
+                  </gmd:citation>
+                  <gmd:abstract />
+                  <gmd:language />
+                  <gmd:extent>
+                    <gmd:EX_Extent id="uuid.224495be-216e-4315-9336-837829551731">
+                      <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent id="uuid.94de9768-69cf-453c-b561-58ae4403881a">
+                          <gmd:extent>
+                            <gml:TimePeriod gml:id="uuid.154609ae-44e2-4a5a-ab49-3f00935a9c16">
+                              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+                              <gml:endPosition indeterminatePosition="unknown" />
+                            </gml:TimePeriod>
+                          </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                      </gmd:temporalElement>
+                    </gmd:EX_Extent>
+                  </gmd:extent>
+                </gmd:MD_DataIdentification>
+              </gmd:identificationInfo>
+            </gmd:MD_Metadata>
+          </aixm:timeSliceMetadata>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.b9a238b0-d55b-4436-8ce7-035ec34ced2d">
+              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown" />
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:name>LPS SR, S.P.</aixm:name>
+          <aixm:designator>OAANSPSVK</aixm:designator>
+          <aixm:type>ATS</aixm:type>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.bff1d1a8-b5e3-4847-bd23-81aa00b9fdff">
+              <aixm:name>NAME NOT FOR JSON-1</aixm:name>
+              <aixm:networkNode>
+                <aixm:OnlineContact gml:id="uuid.69f08d0e-6983-4223-a4c6-1af64265c1ee">
+                  <aixm:network>INTERNET</aixm:network>
+                  <aixm:linkage>URL LPS-1</aixm:linkage>
+                  <aixm:eMail>MAIL LPS-1</aixm:eMail>
+                </aixm:OnlineContact>
+              </aixm:networkNode>
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="uuid.52f82a4f-79a8-47ec-aea7-706f50c10ce6">
+                  <aixm:voice>TEL LPS-1</aixm:voice>
+                </aixm:TelephoneContact>
+              </aixm:phoneFax>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.7e7b81cd-4dc2-4bab-a109-e948341bf324">
+              <aixm:name>UAS NAME FOR JSON-2</aixm:name>
+              <aixm:networkNode>
+                <aixm:OnlineContact gml:id="uuid.fe95282e-52c6-4bc6-9efc-c7eb2eb524d2">
+                  <aixm:network>INTERNET</aixm:network>
+                  <aixm:linkage>URL LPS-2</aixm:linkage>
+                  <aixm:eMail>MAIL LPS-2</aixm:eMail>
+                </aixm:OnlineContact>
+              </aixm:networkNode>
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="uuid.55fb916f-f7a6-43a8-99fc-65f72b959227">
+                  <aixm:voice>TEL LPS-2</aixm:voice>
+                </aixm:TelephoneContact>
+              </aixm:phoneFax>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.40d852b7-7f6c-4425-8255-a2898e0755a4">
+              <aixm:name>UAS NAME FOR JSON-3</aixm:name>
+              <aixm:networkNode>
+                <aixm:OnlineContact gml:id="uuid.32853561-3b07-4246-b46b-e84b62ff7227">
+                  <aixm:network>INTERNET</aixm:network>
+                  <aixm:linkage>URL LPS-3</aixm:linkage>
+                  <aixm:eMail>MAIL LPS-3</aixm:eMail>
+                </aixm:OnlineContact>
+              </aixm:networkNode>
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="uuid.d81d00b6-3fe8-46fb-95c3-28fc5f153a87">
+                  <aixm:voice>TEL LPS-3</aixm:voice>
+                </aixm:TelephoneContact>
+              </aixm:phoneFax>
+            </aixm:ContactInformation>
+          </aixm:contact>
+        </aixm:OrganisationAuthorityTimeSlice>
+      </aixm:timeSlice>
+    </aixm:OrganisationAuthority>
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:OrganisationAuthority gml:id="uuid.527c3f98-6968-4ef9-91a3-c83390c63e8a">
+      <gml:identifier codeSpace="urn:uuid:">42d7c4f8-21d9-4a1f-901d-cb05defcaacf</gml:identifier>
+      <aixm:featureMetadata>
+        <gmd:MD_Metadata id="uuid.0fb54c2d-cf0b-477f-abaa-15140692abff">
+          <gmd:contact />
+          <gmd:dateStamp />
+          <gmd:identificationInfo>
+            <gmd:MD_DataIdentification id="uuid.4c7ef365-b555-4ce7-a061-cac044d5149f">
+              <gmd:citation>
+                <gmd:CI_Citation id="uuid.d9c2e3b6-66e8-48d4-83bf-9ecccc654eb9">
+                  <gmd:title />
+                  <gmd:date>
+                    <gmd:CI_Date id="uuid.1b7e733a-d5cd-47c9-a1f6-893fa3ff6f5e">
+                      <gmd:date>
+                        <gco:DateTime>2023-04-05T18:11:06Z</gco:DateTime>
+                      </gmd:date>
+                      <gmd:dateType />
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:citation>
+              <gmd:abstract />
+              <gmd:language />
+            </gmd:MD_DataIdentification>
+          </gmd:identificationInfo>
+        </gmd:MD_Metadata>
+      </aixm:featureMetadata>
+      <aixm:timeSlice>
+        <aixm:OrganisationAuthorityTimeSlice gml:id="uuid.6c2c50e2-ebae-430d-b755-bea27e6be83c">
+          <gml:validTime>
+            <gml:TimeInstant gml:id="uuid.478be142-e4f2-44ae-8491-37f0f9cc1584">
+              <gml:timePosition>2025-01-15T00:00:00Z</gml:timePosition>
+            </gml:TimeInstant>
+          </gml:validTime>
+          <aixm:interpretation>SNAPSHOT</aixm:interpretation>
+          <aixm:timeSliceMetadata>
+            <gmd:MD_Metadata id="uuid.11e43eb4-5dac-4025-a059-2f9c99587c54">
+              <gmd:contact />
+              <gmd:dateStamp />
+              <gmd:metadataExtensionInfo />
+              <gmd:identificationInfo>
+                <gmd:MD_DataIdentification id="uuid.e7172615-dbd8-4320-bc64-036a6a166e53">
+                  <gmd:citation>
+                    <gmd:CI_Citation id="uuid.86017136-a10d-49b7-8a22-5f4d56742149">
+                      <gmd:title />
+                      <gmd:date>
+                        <gmd:CI_Date id="uuid.d8b052a5-8c88-4618-b185-e10c1ed2868b">
+                          <gmd:date>
+                            <gco:DateTime>2023-04-06T06:53:37Z</gco:DateTime>
+                          </gmd:date>
+                          <gmd:dateType />
+                        </gmd:CI_Date>
+                      </gmd:date>
+                    </gmd:CI_Citation>
+                  </gmd:citation>
+                  <gmd:abstract />
+                  <gmd:language />
+                  <gmd:extent>
+                    <gmd:EX_Extent id="uuid.f4915aa7-86f0-4941-afd0-a1f1e7239934">
+                      <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent id="uuid.8841e6fd-394a-4a83-8d6a-0c9b524e8c4d">
+                          <gmd:extent>
+                            <gml:TimePeriod gml:id="uuid.51373bac-8d79-463f-ab34-9fdda61a36c8">
+                              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+                              <gml:endPosition indeterminatePosition="unknown" />
+                            </gml:TimePeriod>
+                          </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                      </gmd:temporalElement>
+                    </gmd:EX_Extent>
+                  </gmd:extent>
+                </gmd:MD_DataIdentification>
+              </gmd:identificationInfo>
+            </gmd:MD_Metadata>
+          </aixm:timeSliceMetadata>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.9f47dd4e-bd8e-4aae-aebe-cca3764de0cc">
+              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown" />
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:name>UAS SERVICE PROVIDER 01</aixm:name>
+          <aixm:designator>OAUSSP01</aixm:designator>
+          <aixm:type>ORG</aixm:type>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.92ddd17f-fbeb-46e9-a9e4-599fd75ad77a">
+              <aixm:name>NAME NOT FOR JSON USSP01-1</aixm:name>
+              <aixm:address>
+                <aixm:PostalAddress gml:id="uuid.1059becf-782a-458f-b79a-c62651c654d3">
+                  <aixm:deliveryPoint>VAJNORKSA 25</aixm:deliveryPoint>
+                  <aixm:city>BRATISLAVA</aixm:city>
+                  <aixm:postalCode>082101</aixm:postalCode>
+                  <aixm:country>SVK</aixm:country>
+                </aixm:PostalAddress>
+              </aixm:address>
+              <aixm:networkNode>
+                <aixm:OnlineContact gml:id="uuid.1485e7e7-a92a-4168-8206-540c1b49edf2">
+                  <aixm:linkage>URL USSP01-1</aixm:linkage>
+                  <aixm:eMail>MAIL USSP01-1</aixm:eMail>
+                </aixm:OnlineContact>
+              </aixm:networkNode>
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="uuid.60208aca-0f77-44a5-88eb-6a8a4ca973f4">
+                  <aixm:voice>TEL USSP01-1</aixm:voice>
+                </aixm:TelephoneContact>
+              </aixm:phoneFax>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.e142627f-d7b4-49fa-a1fe-0782699eb85d">
+              <aixm:name>UAS NAME FOR JSON-1</aixm:name>
+              <aixm:networkNode>
+                <aixm:OnlineContact gml:id="uuid.840e8f06-e1d9-4f4a-adb4-ca2af2f877ce">
+                  <aixm:network>INTERNET</aixm:network>
+                  <aixm:linkage>URL USSP01-2</aixm:linkage>
+                  <aixm:eMail>MAIL USSP01-2</aixm:eMail>
+                </aixm:OnlineContact>
+              </aixm:networkNode>
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="uuid.4f8a1ace-3b56-4a38-9ad7-0987ceac7936">
+                  <aixm:voice>TEL USSP01-2</aixm:voice>
+                </aixm:TelephoneContact>
+              </aixm:phoneFax>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.f89b8e5d-7971-4449-b792-83a0da04ddf8">
+              <aixm:name>UAS NAME FOR JSON-2</aixm:name>
+              <aixm:networkNode>
+                <aixm:OnlineContact gml:id="uuid.45b28540-4a11-407b-a8f8-4dcea22b1226">
+                  <aixm:network>INTERNET</aixm:network>
+                  <aixm:linkage>URL USSP01-3</aixm:linkage>
+                  <aixm:eMail>MAIL USSP01-3</aixm:eMail>
+                </aixm:OnlineContact>
+              </aixm:networkNode>
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="uuid.f70d3f24-43b9-42e0-9e7d-ceeb7717af6c">
+                  <aixm:voice>TEL USSP01-3</aixm:voice>
+                </aixm:TelephoneContact>
+              </aixm:phoneFax>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:relatedOrganisationAuthority>
+            <aixm:OrganisationAuthorityAssociation gml:id="uuid.5e125132-512b-49be-b6af-2de5be1032b3">
+              <aixm:type>SUPERVISED_BY</aixm:type>
+              <aixm:theOrganisationAuthority xlink:href="#af0c7438-1d37-4c00-b0b6-f72849cfbe79" xlink:title="OANSAT" />
+            </aixm:OrganisationAuthorityAssociation>
+          </aixm:relatedOrganisationAuthority>
+        </aixm:OrganisationAuthorityTimeSlice>
+      </aixm:timeSlice>
+    </aixm:OrganisationAuthority>
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:OrganisationAuthority gml:id="uuid.2b5ec7d8-4645-405b-895c-6343a91527bf">
+      <gml:identifier codeSpace="urn:uuid:">bd9fbc2b-5182-4f7c-a865-ad6fca1aeca3</gml:identifier>
+      <aixm:featureMetadata>
+        <gmd:MD_Metadata id="uuid.c8cf8673-187b-45e0-b307-feb6fecbb2c1">
+          <gmd:contact />
+          <gmd:dateStamp />
+          <gmd:identificationInfo>
+            <gmd:MD_DataIdentification id="uuid.3d538bcc-c843-4601-8944-185b91f8a404">
+              <gmd:citation>
+                <gmd:CI_Citation id="uuid.440e10dc-a82a-4805-a4f5-b6692845e01a">
+                  <gmd:title />
+                  <gmd:date>
+                    <gmd:CI_Date id="uuid.6398c225-99d2-4086-8e50-2d7e30768bd1">
+                      <gmd:date>
+                        <gco:DateTime>2023-04-05T18:11:06Z</gco:DateTime>
+                      </gmd:date>
+                      <gmd:dateType />
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:citation>
+              <gmd:abstract />
+              <gmd:language />
+            </gmd:MD_DataIdentification>
+          </gmd:identificationInfo>
+        </gmd:MD_Metadata>
+      </aixm:featureMetadata>
+      <aixm:timeSlice>
+        <aixm:OrganisationAuthorityTimeSlice gml:id="uuid.4c77e777-8a4a-4026-bc16-9f8901eaafce">
+          <gml:validTime>
+            <gml:TimeInstant gml:id="uuid.76d9d162-362d-4a53-9303-f3c05c9be384">
+              <gml:timePosition>2025-01-15T00:00:00Z</gml:timePosition>
+            </gml:TimeInstant>
+          </gml:validTime>
+          <aixm:interpretation>SNAPSHOT</aixm:interpretation>
+          <aixm:timeSliceMetadata>
+            <gmd:MD_Metadata id="uuid.7f9d7c1f-b4b4-444b-895e-94119427ea13">
+              <gmd:contact />
+              <gmd:dateStamp />
+              <gmd:metadataExtensionInfo />
+              <gmd:identificationInfo>
+                <gmd:MD_DataIdentification id="uuid.6409d452-7395-47c9-8077-ec49c15b1376">
+                  <gmd:citation>
+                    <gmd:CI_Citation id="uuid.4ddd88d5-ba72-4c1a-8539-0f70742a5c83">
+                      <gmd:title />
+                      <gmd:date>
+                        <gmd:CI_Date id="uuid.08783de5-b7d9-41ae-88b9-8aa8af2debe7">
+                          <gmd:date>
+                            <gco:DateTime>2023-04-06T06:52:46Z</gco:DateTime>
+                          </gmd:date>
+                          <gmd:dateType />
+                        </gmd:CI_Date>
+                      </gmd:date>
+                    </gmd:CI_Citation>
+                  </gmd:citation>
+                  <gmd:abstract />
+                  <gmd:language />
+                  <gmd:extent>
+                    <gmd:EX_Extent id="uuid.ac317a1f-0ceb-4feb-9196-a3eff5cfc060">
+                      <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent id="uuid.d2eecb45-3ec3-48da-8111-da1b4f2955c8">
+                          <gmd:extent>
+                            <gml:TimePeriod gml:id="uuid.5c0e89cc-a111-43c7-8f9e-43958d7eab01">
+                              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+                              <gml:endPosition indeterminatePosition="unknown" />
+                            </gml:TimePeriod>
+                          </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                      </gmd:temporalElement>
+                    </gmd:EX_Extent>
+                  </gmd:extent>
+                </gmd:MD_DataIdentification>
+              </gmd:identificationInfo>
+            </gmd:MD_Metadata>
+          </aixm:timeSliceMetadata>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.5a4d2fe7-bdc6-4972-ba1b-c1a028462a51">
+              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown" />
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:name>UAS SERVICE PROVIDER 02</aixm:name>
+          <aixm:designator>OAUSSP02</aixm:designator>
+          <aixm:type>ORG</aixm:type>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.c2cbd9bc-2911-4a67-861b-2bab4ef0f351">
+              <aixm:name>NAME NOT FOR JSON USSP02-1</aixm:name>
+              <aixm:address>
+                <aixm:PostalAddress gml:id="uuid.6068c336-2bca-4ea4-8513-a51284f23df5">
+                  <aixm:deliveryPoint>VAJNORKSA 5</aixm:deliveryPoint>
+                  <aixm:city>BRATISLAVA</aixm:city>
+                  <aixm:postalCode>082101</aixm:postalCode>
+                  <aixm:country>SVK</aixm:country>
+                </aixm:PostalAddress>
+              </aixm:address>
+              <aixm:networkNode>
+                <aixm:OnlineContact gml:id="uuid.3af61e45-6644-4bb7-affd-567e6ea7b654">
+                  <aixm:linkage>URL USSP02-1</aixm:linkage>
+                  <aixm:eMail>MAIL USSP02-1</aixm:eMail>
+                </aixm:OnlineContact>
+              </aixm:networkNode>
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="uuid.03715818-bbc2-453b-bac1-0b1abece12f7">
+                  <aixm:voice>TEL USSP02-1</aixm:voice>
+                </aixm:TelephoneContact>
+              </aixm:phoneFax>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.0a2a0b29-b2fa-4d3f-90eb-60aab9b04a9e">
+              <aixm:name>UAS NAME FOR JSON USSP02-2</aixm:name>
+              <aixm:address>
+                <aixm:PostalAddress gml:id="uuid.0cd128fd-93cb-4610-885c-abcacc7b4c5e">
+                  <aixm:deliveryPoint>VAJNORKSA 5</aixm:deliveryPoint>
+                  <aixm:city>BRATISLAVA</aixm:city>
+                  <aixm:postalCode>082101</aixm:postalCode>
+                  <aixm:country>SVK</aixm:country>
+                </aixm:PostalAddress>
+              </aixm:address>
+              <aixm:networkNode>
+                <aixm:OnlineContact gml:id="uuid.21da5393-5f06-44f0-8ebf-dfbd3131d564">
+                  <aixm:linkage>URL USSP02-2</aixm:linkage>
+                  <aixm:eMail>MAIL USSP02-2</aixm:eMail>
+                </aixm:OnlineContact>
+              </aixm:networkNode>
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="uuid.9e4e2dd5-4018-4e6c-b2f7-91b8e8cbcbc7">
+                  <aixm:voice>TEL USSP02-2</aixm:voice>
+                </aixm:TelephoneContact>
+              </aixm:phoneFax>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.a281ad15-d5a5-4533-89ae-d681d872cc34">
+              <aixm:name>UAS NAME FOR JSON USSP02-3</aixm:name>
+              <aixm:address>
+                <aixm:PostalAddress gml:id="uuid.6e90c7d2-084b-4cdb-b654-155b23b58f12">
+                  <aixm:deliveryPoint>VAJNORKSA 5</aixm:deliveryPoint>
+                  <aixm:city>BRATISLAVA</aixm:city>
+                  <aixm:postalCode>082101</aixm:postalCode>
+                  <aixm:country>SVK</aixm:country>
+                </aixm:PostalAddress>
+              </aixm:address>
+              <aixm:networkNode>
+                <aixm:OnlineContact gml:id="uuid.dba85cdb-92a8-48a9-91ab-2c443af2a90a">
+                  <aixm:linkage>URL USSP02-3</aixm:linkage>
+                  <aixm:eMail>MAIL USSP02-3</aixm:eMail>
+                </aixm:OnlineContact>
+              </aixm:networkNode>
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="uuid.796c7f2b-9cfe-43e8-9a20-26e25be4691e">
+                  <aixm:voice>TEL USSP02-3</aixm:voice>
+                </aixm:TelephoneContact>
+              </aixm:phoneFax>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:relatedOrganisationAuthority>
+            <aixm:OrganisationAuthorityAssociation gml:id="uuid.068eb099-9c1a-4b6f-8b1c-9fc85cc26194">
+              <aixm:type>SUPERVISED_BY</aixm:type>
+              <aixm:theOrganisationAuthority xlink:href="#af0c7438-1d37-4c00-b0b6-f72849cfbe79" xlink:title="OANSAT" />
+            </aixm:OrganisationAuthorityAssociation>
+          </aixm:relatedOrganisationAuthority>
+        </aixm:OrganisationAuthorityTimeSlice>
+      </aixm:timeSlice>
+    </aixm:OrganisationAuthority>
+  </message:hasMember>
+  <message:hasMember>
+    <aixm:OrganisationAuthority gml:id="uuid.d3f9fc41-034a-4b0b-bf3a-0a77a68c0467">
+      <gml:identifier codeSpace="urn:uuid:">bccbf0f2-cb34-4e8b-8dbf-36ff712a65a6</gml:identifier>
+      <aixm:featureMetadata>
+        <gmd:MD_Metadata id="uuid.74e77f4f-4cf8-4fac-b22f-88ac6602530d">
+          <gmd:contact />
+          <gmd:dateStamp />
+          <gmd:identificationInfo>
+            <gmd:MD_DataIdentification id="uuid.6a6fc0e5-b7ba-4174-a268-a6eba75236b6">
+              <gmd:citation>
+                <gmd:CI_Citation id="uuid.e107f68f-3793-47c8-8e8b-82d9fc258d96">
+                  <gmd:title />
+                  <gmd:date>
+                    <gmd:CI_Date id="uuid.e64bf76a-c9e2-46c9-8951-78457e1917c8">
+                      <gmd:date>
+                        <gco:DateTime>2023-04-05T18:11:06Z</gco:DateTime>
+                      </gmd:date>
+                      <gmd:dateType />
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:citation>
+              <gmd:abstract />
+              <gmd:language />
+            </gmd:MD_DataIdentification>
+          </gmd:identificationInfo>
+        </gmd:MD_Metadata>
+      </aixm:featureMetadata>
+      <aixm:timeSlice>
+        <aixm:OrganisationAuthorityTimeSlice gml:id="uuid.957dd7c1-e728-427f-82f9-77c4383e040d">
+          <gml:validTime>
+            <gml:TimeInstant gml:id="uuid.210f6926-3278-4f58-88bd-cc08785f94c3">
+              <gml:timePosition>2025-01-15T00:00:00Z</gml:timePosition>
+            </gml:TimeInstant>
+          </gml:validTime>
+          <aixm:interpretation>SNAPSHOT</aixm:interpretation>
+          <aixm:timeSliceMetadata>
+            <gmd:MD_Metadata id="uuid.1de82ebb-7061-4d7b-bb5c-ed1a17ed19f5">
+              <gmd:contact />
+              <gmd:dateStamp />
+              <gmd:metadataExtensionInfo />
+              <gmd:identificationInfo>
+                <gmd:MD_DataIdentification id="uuid.4decc706-14a9-4f84-a32b-f3d74fade414">
+                  <gmd:citation>
+                    <gmd:CI_Citation id="uuid.fdabd1ab-4ddb-4d5c-b9f5-6e06bd96b463">
+                      <gmd:title />
+                      <gmd:date>
+                        <gmd:CI_Date id="uuid.bb697f04-05fe-47bb-ba8e-3cd4dfff6ed9">
+                          <gmd:date>
+                            <gco:DateTime>2023-04-06T06:56:39Z</gco:DateTime>
+                          </gmd:date>
+                          <gmd:dateType />
+                        </gmd:CI_Date>
+                      </gmd:date>
+                    </gmd:CI_Citation>
+                  </gmd:citation>
+                  <gmd:abstract />
+                  <gmd:language />
+                  <gmd:extent>
+                    <gmd:EX_Extent id="uuid.b7b85e13-b696-437c-b42b-8e04a418b509">
+                      <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent id="uuid.cc2514e2-2837-47b8-82e8-31494eab6507">
+                          <gmd:extent>
+                            <gml:TimePeriod gml:id="uuid.9a2dc50f-d9a7-4249-92a1-32c07a61790a">
+                              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+                              <gml:endPosition indeterminatePosition="unknown" />
+                            </gml:TimePeriod>
+                          </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                      </gmd:temporalElement>
+                    </gmd:EX_Extent>
+                  </gmd:extent>
+                </gmd:MD_DataIdentification>
+              </gmd:identificationInfo>
+            </gmd:MD_Metadata>
+          </aixm:timeSliceMetadata>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="uuid.880845cc-c1e2-4395-8136-aed28c547ff7">
+              <gml:beginPosition>2025-01-15T00:00:00Z</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown" />
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:name>UAS SERVICE PROVIDER 03</aixm:name>
+          <aixm:designator>OAUSSP03</aixm:designator>
+          <aixm:type>ORG</aixm:type>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.27cf1aec-55d8-4091-92fa-50e5262a48ff">
+              <aixm:name>NAME NOT FOR JSON-1</aixm:name>
+              <aixm:address>
+                <aixm:PostalAddress gml:id="uuid.8609daa6-06c8-4311-95dd-b743ae50ce1e">
+                  <aixm:deliveryPoint>VAJNORKSA 6</aixm:deliveryPoint>
+                  <aixm:city>BRATISLAVA</aixm:city>
+                  <aixm:postalCode>082101</aixm:postalCode>
+                  <aixm:country>SVK</aixm:country>
+                </aixm:PostalAddress>
+              </aixm:address>
+              <aixm:networkNode>
+                <aixm:OnlineContact gml:id="uuid.81c8292e-e59e-4ba5-b33c-db24460a9f77">
+                  <aixm:linkage>URL USSP03-1</aixm:linkage>
+                  <aixm:eMail>MAIL USSP03-1</aixm:eMail>
+                </aixm:OnlineContact>
+              </aixm:networkNode>
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="uuid.960a383d-ebe2-4025-b7b7-f7a6fa69db92">
+                  <aixm:voice>TEL USSP03-1</aixm:voice>
+                </aixm:TelephoneContact>
+              </aixm:phoneFax>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.4fa4d698-e0ab-434d-bf1f-3bb5c1dd66d4">
+              <aixm:name>UAS NAME FOR JSON-2</aixm:name>
+              <aixm:address>
+                <aixm:PostalAddress gml:id="uuid.b2b4fa76-44ed-4620-9b56-14fc3eaf8c85">
+                  <aixm:deliveryPoint>VAJNORKSA 6</aixm:deliveryPoint>
+                  <aixm:city>BRATISLAVA</aixm:city>
+                  <aixm:postalCode>082101</aixm:postalCode>
+                  <aixm:country>SVK</aixm:country>
+                </aixm:PostalAddress>
+              </aixm:address>
+              <aixm:networkNode>
+                <aixm:OnlineContact gml:id="uuid.25c8ac13-b7bb-4186-921a-73a886817afe">
+                  <aixm:linkage>URL USSP03-2</aixm:linkage>
+                  <aixm:eMail>MAIL USSP03-2</aixm:eMail>
+                </aixm:OnlineContact>
+              </aixm:networkNode>
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="uuid.baa6402f-252c-449c-9c63-f0ea61efe09d">
+                  <aixm:voice>TEL USSP03-2</aixm:voice>
+                </aixm:TelephoneContact>
+              </aixm:phoneFax>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="uuid.b8b584c0-9508-461f-9ad8-ce25907a0d8c">
+              <aixm:name>UAS NAME FOR JSON-3</aixm:name>
+              <aixm:address>
+                <aixm:PostalAddress gml:id="uuid.c7775d72-572e-4e00-a605-6cd66d390c79">
+                  <aixm:deliveryPoint>VAJNORKSA 6</aixm:deliveryPoint>
+                  <aixm:city>BRATISLAVA</aixm:city>
+                  <aixm:postalCode>082101</aixm:postalCode>
+                  <aixm:country>SVK</aixm:country>
+                </aixm:PostalAddress>
+              </aixm:address>
+              <aixm:networkNode>
+                <aixm:OnlineContact gml:id="uuid.71532b91-2729-4d27-ad6b-47ad5dd3f979">
+                  <aixm:linkage>URL USSP03-3</aixm:linkage>
+                  <aixm:eMail>MAIL USSP03-3</aixm:eMail>
+                </aixm:OnlineContact>
+              </aixm:networkNode>
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="uuid.49d07aee-f6fa-4de5-8e34-50576c65b879">
+                  <aixm:voice>TEL USSP03-3</aixm:voice>
+                </aixm:TelephoneContact>
+              </aixm:phoneFax>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:relatedOrganisationAuthority>
+            <aixm:OrganisationAuthorityAssociation gml:id="uuid.405194ea-fbb6-4ab4-b028-22e8a32c5073">
+              <aixm:type>SUPERVISED_BY</aixm:type>
+              <aixm:theOrganisationAuthority xlink:href="#af0c7438-1d37-4c00-b0b6-f72849cfbe79" xlink:title="OANSAT" />
+            </aixm:OrganisationAuthorityAssociation>
+          </aixm:relatedOrganisationAuthority>
+        </aixm:OrganisationAuthorityTimeSlice>
+      </aixm:timeSlice>
+    </aixm:OrganisationAuthority>
+  </message:hasMember>
+</message:AIXMBasicMessage>
